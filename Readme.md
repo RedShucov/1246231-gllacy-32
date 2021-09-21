@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
-* Студент: [Владимир Полозов](https://up.htmlacademy.ru/htmlcss/32/user/1246231).
-* Наставник: `Неизвестно`.
+* Студент: [Владимир Полозов](https://htmlacademy.ru/profile/redshucov).
+* Наставник: [Ярослав Шевцов](https://htmlacademy.ru/profile/redx).
 
 ---
 
