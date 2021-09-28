@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML Academy: Глейси-каталог</title>
+</head>
+
+<body>
+
+  <header class="page-header">
+
+    <a href="#">
+      <img src="#" width="137" height="56" alt="GlassyShop логотип.">
+    </a>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="catalog.html">Каталог</a>
+        </li>
+        <li>
+          <a href="#">Доставка и оплата</a>
+        </li>
+        <li>
+          <a href="#">О компании</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="tel:+78005558628">+7 800 555-86-28</a>
+
+    <a href="#">
+      <span class="visually-hidden">Поиск по сайту.</span>
+    </a>
+
+    <ul>
+      <li>
+        <a href="#">Вход</a>
+      </li>
+      <li>
+        <a href="#">2 товара</a>
+      </li>
+    </ul>
+
+  </header>
+
+  <main>
+
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="#">Главная</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="#">Каталог</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="#">Сливочное</a>
+      </li>
+    </ul>
+
+    <h1>Сливочное мороженое</h1>
+
+    <section>
+
+      <h2 class="visually-hidden">Фильтрация списка товаров.</h2>
+
+      <form action="https://echo.htmlacademy.ru" method="GET">
+
+        <fieldset>
+          <legend>Сортировка:</legend>
+          <select name="sorting" id="sorting--filter">
+            <option value="popularity">по популярности</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Цена: <span>100 ₽</span> – <span>500 ₽</span></legend>
+          <button type="button">
+            <span class="visually-hidden">Уменьшить цену.</span>
+          </button>
+          <button type="button">
+            <span class="visually-hidden">Увеличить цену.</span>
+          </button>
+        </fieldset>
+
+        <fieldset>
+          <legend>Жирность:</legend>
+          <ul>
+            <li>
+              <label for="fatness-0--filter">
+                <input type="radio" name="fatness" id="fatness-0--filter" value="0%">
+                <span>0%</span>
+              </label>
+            </li>
+            <li>
+              <label for="fatness-10--filter">
+                <input type="radio" name="fatness" id="fatness-10--filter" value="up to 10%">
+                <span>до 10%</span>
+              </label>
+            </li>
+            <li>
+              <label for="fatness-30--filter">
+                <input type="radio" name="fatness" id="fatness-30--filter" value="up to 30%">
+                <span>до 30%</span>
+              </label>
+            </li>
+            <li>
+              <label for="fatness-70--filter">
+                <input type="radio" name="fatness" id="fatness-70--filter" value="up to 70%">
+                <span>выше 30%</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Наполнители:</legend>
+          <ul>
+            <li>
+              <label for="chocolate--filter">
+                <input type="checkbox" name="chocolate" id="chocolate--filter">
+                <span>шоколадные</span>
+              </label>
+            </li>
+            <li>
+              <label for="powdered-sugar--filter">
+                <input type="checkbox" name="powdered-sugar" id="powdered-sugar--filter">
+                <span>сахарные присыпки</span>
+              </label>
+            </li>
+            <li>
+              <label for="fruits--filter">
+                <input type="checkbox" name="fruits" id="fruits--filter">
+                <span>фрукты</span>
+              </label>
+            </li>
+            <li>
+              <label for="syrups--filter">
+                <input type="checkbox" name="syrups" id="syrups--filter">
+                <span>сиропы</span>
+              </label>
+            <li>
+              <label for="jams--filter">
+                <input type="checkbox" name="jams" id="jams--filter">
+                <span>джемы</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button type="submit">Применить</button>
+
+      </form>
+
+      <h2 class="visually-hidden">Список товаров.</h2>
+
+      <ul>
+        <li>
+          <img src="" width="168" height="168" alt="Cливочное мороженое красного оттенка.">
+          <h3>Малинка</h3>
+          <p>Сливочное мороженое с малиновым джемом</p>
+          <b>310 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Фисташковый пломбир с посыпкой из кусочков шоколада.">
+          <h3>Фисташка</h3>
+          <p>Фисташковый пломбир с кусочками шоколада</p>
+          <b>340 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Крем-брюле с прослойками черничного джема.">
+          <h3>Черника</h3>
+          <p>Крем-брюле с черничным джемом</p>
+          <b>330 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Ванильный пломбир синего оттенка с разноцветной посыпкой.">
+          <h3>Бабл-гам</h3>
+          <p>Ванильный пломбир со сладкой посыпкой</p>
+          <b>320 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Сливочный пломбир с вкраплениями еживичного джема.">
+          <h3>Ежевика</h3>
+          <p>Сливочное мороженое с ежевичным джемом</p>
+          <b>330 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Сливочное мороженное желтого оттенка с банановым вкусом.">
+          <h3>Банан</h3>
+          <p>Сливочный пломбир с банановым вкусом</p>
+          <b>340 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Сливочное мороженное тёмного оттенка с шоколадным вкусом.">
+          <h3>Шоколадка</h3>
+          <p>Классический шоколадный пломбир</p>
+          <b>270 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Сливочный пломбир светло-розового оттенка с клубничным вкусом.">
+          <h3>Клубничка</h3>
+          <p>Сливочный пломбир с клубничным вкусом</p>
+          <b>300 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Лимонный ярко-жёлтый сорбет.">
+          <h3>Лимон</h3>
+          <p>Освежающий лимонный сорбет</p>
+          <b>310 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Сливочный пломбир голубого оттенка с ментоловым сиропом.">
+          <h3>Ментол</h3>
+          <p>Сливочный пломбир с ментоловым сиропом</p>
+          <b>320 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Сливочный пломбир зеленого оттенка политый шоколадным сиропом.">
+          <h3>Орешек</h3>
+          <p>Фисташковый пломбир с шоколадным сиропом</p>
+          <b>360 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+        <li>
+          <img src="" width="168" height="168" alt="Классическое крем-брюле розового оттенка.">
+          <h3>Крем-брюле</h3>
+          <p>Классическое крем-брюле</p>
+          <b>280 ₽/кг</b>
+          <a href="#">
+            <span class="visually-hidden">Добавить в корзину.</span>
+          </a>
+        </li>
+      </ul>
+
+      <button>Показать еще</button>
+
+      <ol>
+        <li>
+          <a href="#">1</a>
+        </li>
+        <li>
+          <a href="#">2</a>
+        </li>
+        <li>
+          <a href="#">3</a>
+        </li>
+        <li>
+          <a href="#">4</a>
+        </li>
+        <li>
+          <a href="#">5</a>
+        </li>
+      </ol>
+
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+
+    <section>
+
+      <h2 class="visually-hidden">Наши соцсети.</h2>
+
+      <ul>
+        <li>
+          <a href="#">
+            <!-- <svg></svg> -->
+            <span class="visually-hidden">Мы в вконтакте.</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- <svg></svg> -->
+            <span class="visually-hidden">Мы в фейсбук.</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- <svg></svg> -->
+            <span class="visually-hidden">Мы в инстаграм.</span>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+
+    <section>
+
+      <h2 class="visually-hidden">Дополнительная информация.</h2>
+
+      <ul>
+        <li>
+          <a href="#"><b>Для поставщиков</b></a>
+        </li>
+        <li>
+          <a href="#">Наши документы</a>
+        </li>
+        <li>
+          <a href="#">О производстве</a>
+        </li>
+        <li>
+          <a href="#">Экологические стандарты</a>
+        </li>
+      </ul>
+
+    </section>
+
+    <a href="#">
+      <!-- <svg></svg> -->
+    </a>
+
+    <p>
+      Сделано в <a href="https://htmlacademy.ru/">.html academy</a> © 2021
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
