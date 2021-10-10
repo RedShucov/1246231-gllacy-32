@@ -1,4 +1,5 @@
 .DS_Store
+.node_modules
 .idea
 .vscode
 *.ai
@@ -6,6 +7,8 @@
 *.pdf
 *.psd
 *.sublime*
+*.json
+gulpfile.js
 node_modules/
 npm-debug.*
 Thumbs.db
