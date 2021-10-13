@@ -193,17 +193,18 @@
     </section>
 
     <section class="special-promotions">
-
       <h2 class="page-title special-promotions__page-title">Заказывайте мороженое и получайте подарки!</h2>
+
       <ul class="special-promotions__list">
-        <li class="special-promotions__item">
+        <li>
           <h3 class="special-promotions__title">Малинка даром!</h3>
           <p class="special-promotions__description">При покупке 2 кг любого фруктового мороженого, добавим в ваш
             заказ банку малинового варенья
             бесплатно.</p>
           <a class="special-promotions__button" href="#">Хочу подарок</a>
         </li>
-        <li class="special-promotions__item">
+
+        <li>
           <h3 class="special-promotions__title">Маршмеллоу даром!</h3>
           <p class="special-promotions__description">При покупке 2 кг пломбира, добавим в ваш заказ упаковку нежных
             зефирок совершенно бесплатно.</p>
@@ -277,7 +278,7 @@
       <h2 class="visually-hidden">О мороженном магазина Глейси.</h2>
 
       <div class="about-us__body">
-        <p class="page-title about-us__page-title">Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого
+        <p class="page-title">Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого
           собственного проиводства на развес</p>
         <ul class="about-us__list">
           <li class="about-us__item about-us__item--ice-cream">Все наше мороженое изгатавливается на собственном
@@ -292,7 +293,7 @@
       </div>
 
       <article class="news-item">
-        <p class="news-item__notice">Новое в нашем блоге</p>
+        <p class="news-item__subject">Новое в нашем блоге</p>
         <a class="news-item__link" href="#">
           <h3 class="news-item__title">10 способов сервировки фруктовых щербетов к столу</h3>
         </a>
@@ -308,10 +309,10 @@
             Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
           </p>
 
-          <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
-            <input class="subscription-form__field" type="email" name="user-email" id="user-email-subscribe"
+          <form class="subscription__form" action="https://echo.htmlacademy.ru" method="post">
+            <input class="subscription__form-field" type="email" name="user-email" id="user-email-subscribe"
               placeholder="email@example.com">
-            <button class="subscription-form__button" type="submit">Отправить</button>
+            <button class="subscription__form-button" type="submit">Отправить</button>
           </form>
         </div>
       </section>
@@ -320,51 +321,52 @@
 
     <section class="delivery">
 
-      <h2 class="page-title delivery__page-title">Доставка любимого мороженого на дом</h2>
+      <h2 class="page-title">Доставка любимого мороженого на дом</h2>
 
-      <p class="delivery__">Хочется полакомиться любимым дессертом, но нет времени съездить в магазин? Закажите доставку
-        мороженого
-        на дом
-        и курьер привезет вам ваш заказ в течение часа!</p>
+      <p class="delivery__text">Хочется полакомиться любимым дессертом, но нет времени съездить в магазин? Закажите
+        доставку
+        мороженого на дом и курьер привезет вам ваш заказ в течение часа!</p>
 
-      <p>Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
+      <div class="delivery__body">
+        <p class="delivery__text">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
 
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <p>
-          <label for="date-delivery">Дата</label>
-          <input type="text" name="date" id="date-delivery" value="2020-04-01">
-        </p>
+        <form class="delivery__form" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="date-delivery">Дата</label>
+            <input type="text" name="date" id="date-delivery" value="2020-04-01">
+          </p>
 
-        <p>
-          <label for="phone-number-delivery">Телефон</label>
-          <input type="tel" name="phone-number" id="phone-number-delivery" placeholder="+7 800 999-00-00">
-        </p>
+          <p>
+            <label for="phone-number-delivery">Телефон</label>
+            <input type="tel" name="phone-number" id="phone-number-delivery" placeholder="+7 800 999-00-00">
+          </p>
 
-        <p>
-          <label for="address-delivery">Адрес</label>
-          <input type="text" name="address" id="address-delivery" placeholder="ул. Большая Конюшенная, 19/8">
-        </p>
+          <p>
+            <label for="address-delivery">Адрес</label>
+            <input type="text" name="address" id="address-delivery" placeholder="ул. Большая Конюшенная, 19/8">
+          </p>
 
-        <button type="submit">Отправить</button>
-      </form>
+          <button class="delivery__form-button" type="submit">Отправить</button>
+        </form>
+      </div>
 
     </section>
 
-    <section>
+    <section class="contacts">
 
       <h2 class="visually-hidden">Наши контакты.</h2>
 
       <address>
-        <p>Адрес главного офиса и офлайн-магазина:</p>
+        <p class="contacts__text">Адрес главного офиса и офлайн-магазина:</p>
 
-        <p><b>наб. Реки Карповки, 5 лит П, Санкт-Петербург</b></p>
+        <p class="contacts__text-lead">наб. Реки Карповки, 5 лит П, Санкт-Петербург</p>
 
-        <p>Для заказов по телефону:</p>
+        <p class="contacts__text">Для заказов по телефону:</p>
 
         <p>
-          <b><a href="tel:+78128121212">+7 (812) 812-12-12</a></b>
+          <span class="contacts__text-lead"><a href="tel:+78128121212">+7 (812) 812-12-12</a></span>
 
-          (с 10 до 20 ежедневно)
+          <span class="contacts__sub-text">(с 10 до 20 ежедневно)</span>
         </p>
       </address>
 
