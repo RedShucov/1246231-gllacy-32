@@ -1,11 +1,35 @@
 body {
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-weight: 400;
+  background-color: #feafc3;
 }
 
-
-.most-popular .page-title {
-  display: block;
+.special-promotions__item {
+  background-color: #ff7799;
 }
 
+.card-ice-cream {
+  background-color: #FCFCFC;
+}
 
+.about-us__body {
+  background-image: url(../img/img-decor/background/background-waffle@mini.jpg);
+}
+
+.news-item {
+  background-image: url(../img/img-decor/background/background-news-item.jpg);
+  background-repeat: no-repeat;
+}
+
+.subscription {
+  background-image: url(../img/img-decor/background/background-subscription.png);
+  background-repeat: no-repeat;
+}
+
+.delivery {
+  background-image: url(../img/img-decor/background/background-delivery.jpg);
+  background-repeat: no-repeat;
+}
+
+.contacts {
+  background-image: url(../img/img-decor/background/background-feedback.jpg);
+  background-repeat: no-repeat;
+}
