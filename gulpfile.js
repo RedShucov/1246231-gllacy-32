@@ -5,7 +5,6 @@ import nodeSass     from "node-sass"
 import groupMedia   from 'gulp-group-css-media-queries'
 import autoprefixer from 'gulp-autoprefixer'
 import rename       from 'gulp-rename'
-// import concat       from 'gulp-concat'
 import imagemin     from 'gulp-imagemin'
 import del          from 'del'
 
@@ -35,7 +34,6 @@ export const styles = () => {
         cascade: true
       })
     )
-    // .pipe(concat('style.css'))
     .pipe(dest('project/css'))
     .pipe(
       rename({

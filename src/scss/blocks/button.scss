@@ -1,0 +1,54 @@
+.button {
+  padding: 12px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--text-extra);
+  text-decoration: none;
+
+  background-color: rgb(252, 252, 252);
+  border: none;
+  border-radius: 26px;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
+.button:hover {
+  background-color: rgba(252, 252, 252, 0.4);
+  outline-color: rgb(252, 252, 252);
+  box-shadow: 0px 4px 15px rgba(133, 133, 133, 0.15);
+}
+
+.button:focus {
+  outline: 2px solid #2D3440;
+}
+
+.button--form {
+  color: #FCFCFC;
+  background-color: #FF2F64;
+  outline: 4px solid rgba(255, 47, 100, 0.3);
+}
+
+.button--form:hover {
+  color: #2D3440;
+  background: rgba(252, 252, 252, 0.3);
+  outline-color: #FF2F64;
+}
+
+.button--filter-form {
+  padding: 8px 32px;
+  background: rgba(252, 252, 252, 0.3);
+  outline: 2px solid #FCFCFC;
+}
+
+.button--filter-form:hover {
+  padding: 8px 32px;
+  background: rgb(252, 252, 252);
+  outline-color: rgba(252, 252, 252, 0.3);
+}
+
+.button--filter-form:focus {
+  outline-color: #2D3440;
+}

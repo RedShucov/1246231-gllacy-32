@@ -1,0 +1,13 @@
+.breadcrumbs {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.breadcrumbs__link {
+  color: var(--text-extra);
+  text-decoration: underline;
+
+  text-decoration-color: var(--text-extra);
+}
