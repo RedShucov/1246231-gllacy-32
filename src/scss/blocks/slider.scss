@@ -1,0 +1,27 @@
+.slider {
+  color: var(--text-extra);
+}
+
+.slider__description {
+  list-style: none;
+}
+
+.slider__link-title {
+  text-decoration: none;
+}
+
+.slider__slide-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  color: var(--text-extra);
+}
+
+.slider__slide-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.slider__slide-figure {
+  list-style: none;
+}

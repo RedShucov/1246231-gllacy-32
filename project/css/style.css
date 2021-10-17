@@ -1,3 +1,12 @@
+:root {
+  --background-cite: #feafc3;
+  --background-extra: #ff7799;
+  --background-standard: #fcfcfc;
+  --text-extra: #2d3440;
+  --text-inner-form: #b9b9b9;
+  --text-strandard: #565c66;
+}
+
 @font-face {
   font-style: normal;
   font-weight: 400;
@@ -21,25 +30,160 @@
   font-display: swap;
   src: url(../fonts/inter-900.woff2);
 }
+
 body {
-  background-color: #feafc3;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Inter", "Arial", sans-serif;
+  color: var(--text-strandard);
+  background-color: var(--background-cite);
+}
+
+.main-navigation {
+  line-height: 20px;
+}
+
+.main-navigation__list {
+  list-style: none;
+}
+
+.main-navigation__link {
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.user-navigation {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-navigation__list {
+  list-style: none;
+}
+
+.user-navigation__phone-number {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.user-navigation__link {
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.slider {
+  color: var(--text-extra);
+}
+
+.slider__description {
+  list-style: none;
+}
+
+.slider__link-title {
+  text-decoration: none;
+}
+
+.slider__slide-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  color: var(--text-extra);
+}
+
+.slider__slide-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.slider__slide-figure {
+  list-style: none;
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: var(--text-extra);
+}
+
+.special-promotions {
+  color: var(--text-extra);
+}
+
+.special-promotions__list {
+  list-style: none;
 }
 
 .special-promotions__item {
-  background-color: #ff7799;
+  background-color: var(--background-extra);
+}
+
+.special-promotions__title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.most-popular__product-list {
+  list-style: none;
 }
 
 .card-ice-cream {
-  background-color: #FCFCFC;
+  background-color: var(--background-standard);
+}
+
+.card-ice-cream__link {
+  text-decoration: none;
+}
+
+.card-ice-cream__title {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-extra);
+}
+
+.card-ice-cream__description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card-ice-cream__price {
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .about-us__body {
   background-image: url(../img/img-decor/background/background-waffle@mini.jpg);
 }
 
-.news-item {
-  background-image: url(../img/img-decor/background/background-news-item.jpg);
+.about-us__list {
+  list-style: none;
+}
+
+.about-us__item {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.news-block {
+  background-image: url(../img/img-decor/background/background-news-block.jpg);
   background-repeat: no-repeat;
+}
+
+.news-block__subject {
+  line-height: 20px;
+}
+
+.news-block__link {
+  text-decoration: none;
+}
+
+.news-block__title {
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--text-extra);
 }
 
 .subscription {
@@ -47,12 +191,87 @@ body {
   background-repeat: no-repeat;
 }
 
+.subscription__body {
+  background-color: var(--background-standard);
+  background-clip: content-box;
+}
+
 .delivery {
   background-image: url(../img/img-decor/background/background-delivery.jpg);
   background-repeat: no-repeat;
 }
 
+.delivery__body {
+  background-color: var(--background-standard);
+}
+
+.delivery__form-label {
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--text-extra);
+}
+
 .contacts {
   background-image: url(../img/img-decor/background/background-feedback.jpg);
   background-repeat: no-repeat;
+}
+
+.contacts__adress {
+  font-style: normal;
+}
+
+.contacts__text-lead {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-extra);
+}
+
+.contacts__phone-number {
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.contacts__sub-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.additional-information {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.additional-information__list {
+  list-style: none;
+}
+
+.additional-information__link {
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.developed {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-extra);
+}
+
+.developed__link {
+  color: var(--text-extra);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }

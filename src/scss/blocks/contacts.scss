@@ -1,0 +1,25 @@
+.contacts {
+  background-image: url(../img/img-decor/background/background-feedback.jpg);
+  background-repeat: no-repeat;
+}
+
+.contacts__adress {
+  font-style: normal;
+}
+
+.contacts__text-lead {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-extra);
+}
+
+.contacts__phone-number {
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.contacts__sub-text {
+  font-size: 14px;
+  line-height: 20px;
+}

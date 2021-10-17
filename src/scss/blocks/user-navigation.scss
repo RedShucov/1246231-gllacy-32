@@ -1,0 +1,20 @@
+.user-navigation {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-navigation__list {
+  list-style: none;
+}
+
+.user-navigation__phone-number {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-extra);
+  text-decoration: none;
+}
+
+.user-navigation__link {
+  color: var(--text-extra);
+  text-decoration: none;
+}

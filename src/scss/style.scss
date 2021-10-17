@@ -1,35 +1,53 @@
-body {
-  background-color: #feafc3;
-}
+// global
 
-.special-promotions__item {
-  background-color: #ff7799;
-}
+@import "variables.scss";
 
-.card-ice-cream {
-  background-color: #FCFCFC;
-}
+@import "fonts.scss";
 
-.about-us__body {
-  background-image: url(../img/img-decor/background/background-waffle@mini.jpg);
-}
+@import "global.scss";
 
-.news-item {
-  background-image: url(../img/img-decor/background/background-news-item.jpg);
-  background-repeat: no-repeat;
-}
+// header
 
-.subscription {
-  background-image: url(../img/img-decor/background/background-subscription.png);
-  background-repeat: no-repeat;
-}
+@import "blocks/main-navigation.scss";
 
-.delivery {
-  background-image: url(../img/img-decor/background/background-delivery.jpg);
-  background-repeat: no-repeat;
-}
+@import "blocks/user-navigation.scss";
 
-.contacts {
-  background-image: url(../img/img-decor/background/background-feedback.jpg);
-  background-repeat: no-repeat;
-}
+// index page
+
+@import "blocks/slider.scss";
+
+@import "blocks/page-title.scss";
+
+@import "blocks/special-promotions.scss";
+
+@import "blocks/most-popular.scss";
+
+@import "blocks/card-ice-cream.scss";
+
+@import "blocks/about-us.scss";
+
+@import "blocks/news-block.scss";
+
+@import "blocks/subscription.scss";
+
+@import "blocks/delivery.scss";
+
+@import "blocks/contacts.scss";
+
+// catalog page
+
+
+
+// everyplace
+
+@import "blocks/social-list.scss";
+
+// footer
+
+@import "blocks/footer/additional-information.scss";
+
+@import "blocks/footer/developed.scss";
+
+// other
+
+@import "visually-hidden";
