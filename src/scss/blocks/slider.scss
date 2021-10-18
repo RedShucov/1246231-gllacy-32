@@ -22,6 +22,35 @@
   line-height: 24px;
 }
 
-.slider__slide-figure {
+.slider__figure {
   list-style: none;
+}
+
+// загатовка
+
+.slider__figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider__slide-figure {
+  order: 1;
+}
+
+.slider__slide-figure--active{
+  order: 0;
+}
+
+// болванка, переделать под один класс
+.slider__slide-figure img {
+  width: 66px;
+  height: 150px;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.slider__slide-figure--active img {
+  width: 306px;
+  height: 507px;
+  opacity: 1;
 }
