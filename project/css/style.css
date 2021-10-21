@@ -17,7 +17,7 @@
   font-weight: 400;
   font-family: "Inter";
   font-display: swap;
-  src: url(../fonts/inter-400.woff2);
+  src: url(../fonts/inter-400.woff2) format("woff2");
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-weight: 700;
   font-family: "Inter";
   font-display: swap;
-  src: url(../fonts/inter-700.woff2);
+  src: url(../fonts/inter-700.woff2) format("woff2");
 }
 
 @font-face {
@@ -33,7 +33,7 @@
   font-weight: 900;
   font-family: "Inter";
   font-display: swap;
-  src: url(../fonts/inter-900.woff2);
+  src: url(../fonts/inter-900.woff2) format("woff2");
 }
 
 body {
@@ -363,7 +363,6 @@ body {
 }
 
 .button--filter-form:hover {
-  padding: 8px 32px;
   background: var(--background-standard);
   border-color: var(--background-standard-opacity);
 }
