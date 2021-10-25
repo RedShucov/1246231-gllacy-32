@@ -8,6 +8,8 @@
 
 // header
 
+@import "blocks/page-header.scss";
+
 @import "blocks/main-navigation.scss";
 
 @import "blocks/user-navigation.scss";
@@ -25,6 +27,8 @@
 @import "blocks/card-ice-cream.scss";
 
 @import "blocks/about-us.scss";
+
+@import "blocks/aside-information.scss";
 
 @import "blocks/news-block.scss";
 
@@ -49,6 +53,8 @@
 @import "blocks/button.scss";
 
 // footer
+
+@import "blocks/page-footer.scss";
 
 @import "blocks/additional-information.scss";
 

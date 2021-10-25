@@ -1,9 +1,23 @@
 .delivery {
+  display: flex;
+  justify-content: space-between;
+
   background-image: url(../img/img-decor/background/background-delivery.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .delivery__body {
+  max-width: 371px;
+  margin-top: 167px;
+  margin-bottom: 163px;
+  margin-left: 100px;
+}
+
+.delivery__form-wrapper {
+  max-width: 500px;
+  margin: 64px;
+
   background-color: var(--background-standard);
 }
 
@@ -12,5 +26,3 @@
   line-height: 20px;
   color: var(--text-extra);
 }
-
-

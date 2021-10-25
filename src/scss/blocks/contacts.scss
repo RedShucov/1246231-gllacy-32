@@ -1,6 +1,16 @@
 .contacts {
+  padding: 64px;
+
   background-image: url(../img/img-decor/background/background-feedback.jpg);
   background-repeat: no-repeat;
+}
+
+.contacts__body {
+  box-sizing: border-box;
+  max-width: 364px;
+  padding: 40px;
+
+  background-color: var(--background-standard);
 }
 
 .contacts__adress {

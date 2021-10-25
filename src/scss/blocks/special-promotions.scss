@@ -3,15 +3,20 @@
 }
 
 .special-promotions__list {
+  justify-content: space-between;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
 .special-promotions__item {
   background-color: var(--background-extra);
+  max-width: 570px;
 }
 
 .special-promotions__title {
   font-size: 24px;
   line-height: 30px;
 }
-
