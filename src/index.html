@@ -33,9 +33,17 @@
 
     <div class="user-navigation">
       <a class="user-navigation__phone-number" href="tel:+78005558628">+7 800 555-86-28</a>
-      <a class="user-navigation__link" href="#"><span class="visually-hidden">Поиск по сайту.</span></a>
-      <a class="user-navigation__link" href="#">Вход</a>
-      <a class="user-navigation__link" href="#">Пусто</a>
+      <ul class="user-navigation__list">
+        <li>
+          <a class="user-navigation__link" href="#"><span class="visually-hidden">Поиск по сайту.</span></a>
+        </li>
+        <li>
+          <a class="user-navigation__link" href="#">Вход</a>
+        </li>
+        <li>
+          <a class="user-navigation__link" href="#">Пусто</a>
+        </li>
+      </ul>
     </div>
 
   </header>
@@ -250,14 +258,14 @@
         </ul>
       </div>
 
-      <article class="news-block">
+      <article class="about-us__sub-item news-block">
         <p class="news-block__subject">Новое в нашем блоге</p>
         <a class="news-block__link" href="#">
           <h3 class="news-block__title">10 способов сервировки фруктовых щербетов к столу</h3>
         </a>
       </article>
 
-      <section class="subscription">
+      <section class="about-us__sub-item subscription">
         <h3 class="visually-hidden">Подписаться на рассылку Глейси.</h3>
 
         <div class="subscription__body">
@@ -279,12 +287,14 @@
 
     <section class="delivery">
 
-      <h2 class="page-title">Доставка любимого мороженого на дом</h2>
-
-      <p class="delivery__text">Хочется полакомиться любимым дессертом, но нет времени съездить в магазин? Закажите
-        доставку мороженого на дом и курьер привезет вам ваш заказ в течение часа!</p>
-
       <div class="delivery__body">
+        <h2 class="page-title">Доставка любимого мороженого на дом</h2>
+
+        <p class="delivery__text">Хочется полакомиться любимым дессертом, но нет времени съездить в магазин? Закажите
+          доставку мороженого на дом и курьер привезет вам ваш заказ в течение часа!</p>
+      </div>
+
+      <div class="delivery__form-wrapper">
         <p class="delivery__text">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
 
         <form class="delivery__form" action="https://echo.htmlacademy.ru" method="post">
