@@ -1,5 +1,29 @@
 .filter-from {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  max-width: 807px;
+
   font-size: 14px;
   line-height: 20px;
   color: var(--text-extra);
+}
+
+.filter-from__fieldset {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.filter-form__fieldset-caption {
+  margin: 0;
+  padding: 0;
+}
+
+.filter-from__fieldset-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }

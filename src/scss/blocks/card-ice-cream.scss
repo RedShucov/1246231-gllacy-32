@@ -1,5 +1,9 @@
 .card-ice-cream {
+  box-sizing: border-box;
+  min-width: 190px;
   max-width: 270px;
+  padding-right: 40px;
+  padding-left: 40px;
 
   background-color: var(--background-standard);
 }
