@@ -46,15 +46,6 @@
   list-style: none;
 }
 
-// отсюда
-
-// загатовка
-
-// .slider__figure {
-//   display: flex;
-//   flex-direction: column;
-// }
-
 .slider__slide-figure {
   order: 1;
 }
@@ -63,7 +54,6 @@
   order: 0;
 }
 
-// болванка, переделать под один класс
 .slider__slide-figure img {
   width: 66px;
   height: 150px;
@@ -79,9 +69,6 @@
 
   opacity: 1;
 }
-
-// досюда
-// переделать
 
 .slider__footer {
   display: flex;
