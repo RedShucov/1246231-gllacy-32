@@ -347,8 +347,8 @@ body {
 }
 
 .most-popular__page-title {
-  text-align: center;
   margin-bottom: 56px;
+  text-align: center;
 }
 
 .most-popular__product-list {
@@ -443,10 +443,18 @@ body {
 .about-us {
   padding: 24px;
   background-image: url(../img/img-decor/background/background-waffle@mini.jpg);
+  border-radius: 16px;
 }
 
 .about-us__body {
-  background-color: white;
+  padding: 56px 40px;
+  background-color: var(--background-standard);
+  border-radius: 16px;
+}
+
+.page-title__about-us {
+  margin-bottom: 56px;
+  text-align: center;
 }
 
 .about-us__list {
@@ -460,7 +468,6 @@ body {
           justify-content: space-between;
   margin: 0;
   padding: 0;
-  padding: 56px 40px;
   list-style: none;
   row-gap: 40px;
 }
@@ -468,8 +475,41 @@ body {
 .about-us__item {
   position: relative;
   max-width: 442px;
+  padding-left: 64px;
   font-size: 16px;
   line-height: 22px;
+}
+
+.about-us__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 32px;
+  border: 2px solid var(--text-extra);
+  border-radius: 50%;
+}
+
+.about-us__item--ice-cream::before {
+  background-image: url(../img/img-decor/otherwise/description-ice-cream.svg);
+}
+
+.about-us__item--farm-suppliers::before {
+  background-image: url(../img/img-decor/otherwise/description-cow.svg);
+}
+
+.about-us__item--eco-materials::before {
+  background-image: url(../img/img-decor/otherwise/description-leaf.svg);
+}
+
+.about-us__item--quality-delivery::before {
+  background-image: url(../img/img-decor/otherwise/description-thermometer.svg);
 }
 
 .aside-information {
