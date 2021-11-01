@@ -150,6 +150,17 @@ body {
   text-decoration: none;
 }
 
+.main-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 80px;
+}
+
 .slider {
   color: var(--text-extra);
 }
@@ -278,32 +289,61 @@ body {
   font-size: 32px;
   line-height: 46px;
   color: var(--text-extra);
+  margin: 0;
 }
 
 .special-promotions {
   color: var(--text-extra);
 }
 
+.special-promotions__page-title {
+  margin-bottom: 54px;
+  text-align: center;
+}
+
 .special-promotions__list {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .special-promotions__item {
-  background-color: var(--background-extra);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 570px;
+  padding: 40px;
+  padding-right: 209px;
+  background-color: var(--background-extra);
+  border-radius: 16px;
+}
+
+.special-promotions__item--raspberries {
+  background-image: url(../img/img-decor/special-promotions/raspberries-promotions.png);
+  background-repeat: no-repeat;
+  background-position: right 15px bottom;
+}
+
+.special-promotions__item--marshmallows {
+  background-image: url(../img/img-decor/special-promotions/marshallow-promotions.png);
+  background-repeat: no-repeat;
+  background-position: right 7px bottom;
 }
 
 .special-promotions__title {
+  margin-top: 1px;
+  margin-bottom: 17px;
   font-size: 24px;
   line-height: 30px;
+}
+
+.special-promotions__description {
+  margin-bottom: 31px;
 }
 
 .most-popular__product-list {
