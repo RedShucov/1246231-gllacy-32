@@ -96,10 +96,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 400px;
   margin: 0;
-  padding: 0;
   margin-bottom: 3px;
+  padding: 0;
   list-style: none;
 }
 
@@ -116,7 +118,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 3px;
   font-size: 14px;
   line-height: 20px;
 }
@@ -125,14 +126,18 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 296px;
   margin: 0;
+  margin-bottom: 3px;
   padding: 0;
   list-style: none;
   gap: 16px;
 }
 
 .user-navigation__phone-number {
+  margin-bottom: 3px;
   font-weight: 700;
   font-size: 16px;
   color: var(--text-extra);
