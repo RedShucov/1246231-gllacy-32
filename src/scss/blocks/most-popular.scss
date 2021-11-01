@@ -1,9 +1,16 @@
+.most-popular__page-title {
+  margin-bottom: 56px;
+
+  text-align: center;
+}
+
 .most-popular__product-list {
   display: flex;
   margin: 0;
   padding: 0;
 
   list-style: none;
+  text-align: center;
 
   gap: 30px;
 }
