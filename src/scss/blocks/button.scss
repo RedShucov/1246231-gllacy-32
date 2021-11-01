@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   padding: 12px 32px;
 
   font-weight: 700;
@@ -10,47 +11,48 @@
 
   background-color: var(--background-standard);
   background-clip: padding-box;
-  border: 4px solid var(--background-standard-opacity);
+  border: none;
   border-radius: 26px;
+  outline: 4px solid var(--background-standard-opacity);
   box-shadow: 0 4px 12px var(--button-shadow);
 }
 
 .button:hover {
   background-color: var(--background-standard-opacity);
-  border-color: var(--background-standard);
+  outline-color: var(--background-standard);
   box-shadow: 0 4px 15px var(--button-shadow-hover);
 }
 
 .button:focus {
-  border: 2px solid var(--text-extra);
+  outline: 2px solid var(--text-extra);
 }
 
 .button--form {
   color: var(--background-standard);
 
   background-color: var(--background-button-form);
-  border: 4px solid var(--button-form-border);
+  outline: 4px solid var(--button-form-border);
 }
 
 .button--form:hover {
   color: var(--text-extra);
 
   background: var(--background-standard-opacity);
-  border-color: var(--background-button-form);
+  outline-color: var(--background-button-form);
 }
 
 .button--filter-form {
   padding: 8px 32px;
 
   background: var(--background-standard-opacity);
-  border: 2px solid var(--background-standard);
+  outline: 2px solid var(--background-standard);
 }
 
 .button--filter-form:hover {
   background: var(--background-standard);
-  border-color: var(--background-standard-opacity);
+  outline-color: var(--background-standard-opacity);
 }
 
 .button--filter-form:focus {
-  border-color: var(--text-extra);
+  outline-color: var(--text-extra);
 }
