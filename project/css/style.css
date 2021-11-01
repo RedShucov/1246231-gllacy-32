@@ -60,6 +60,7 @@ main {
 body {
   width: 1170px;
   margin: 0 auto;
+  margin-top: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -78,31 +79,57 @@ body {
 }
 
 .main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 20px;
 }
 
+.main-navigation__logo {
+  margin-right: 16px;
+}
+
 .main-navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   max-width: 400px;
   margin: 0;
   padding: 0;
+  margin-bottom: 3px;
   list-style: none;
 }
 
 .main-navigation__link {
+  padding: 8px 16px;
   color: var(--text-extra);
   text-decoration: none;
 }
 
 .user-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3px;
   font-size: 14px;
   line-height: 20px;
 }
 
 .user-navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   max-width: 296px;
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 16px;
 }
 
 .user-navigation__phone-number {

@@ -1,16 +1,26 @@
 .main-navigation {
+  display: flex;
+  align-items: center;
+
   line-height: 20px;
 }
 
+.main-navigation__logo {
+  margin-right: 16px;
+}
+
 .main-navigation__list {
+  display: flex;
   max-width: 400px;
   margin: 0;
   padding: 0;
-
+  margin-bottom: 3px;
   list-style: none;
 }
 
 .main-navigation__link {
+  padding: 8px 16px;
+
   color: var(--text-extra);
   text-decoration: none;
 }

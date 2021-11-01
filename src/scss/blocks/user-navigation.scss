@@ -1,14 +1,21 @@
 .user-navigation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+
   font-size: 14px;
   line-height: 20px;
 }
 
 .user-navigation__list {
+  display: flex;
   max-width: 296px;
   margin: 0;
   padding: 0;
 
   list-style: none;
+
+  gap: 16px;
 }
 
 .user-navigation__phone-number {
