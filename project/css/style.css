@@ -60,7 +60,6 @@ main {
 body {
   width: 1170px;
   margin: 0 auto;
-  margin-top: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -76,6 +75,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 23px;
+  margin-bottom: 24px;
 }
 
 .main-navigation {
@@ -157,11 +158,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 70px;
 }
 
 .slider__description {
   max-width: 470px;
   margin: 0;
+  margin-top: 131px;
   padding: 0;
   list-style: none;
 }
@@ -179,6 +182,8 @@ body {
 }
 
 .slider__slide-title {
+  margin-top: 0;
+  margin-bottom: 25px;
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
@@ -186,6 +191,8 @@ body {
 }
 
 .slider__slide-text {
+  max-width: 414px;
+  margin-bottom: 48px;
   font-size: 18px;
   line-height: 24px;
 }
@@ -195,6 +202,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
+  margin-left: 21px;
   padding: 0;
   list-style: none;
 }
@@ -203,26 +211,32 @@ body {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+  margin-top: 198px;
 }
 
 .slider__slide-figure--active {
   -webkit-box-ordinal-group: 1;
       -ms-flex-order: 0;
           order: 0;
+  margin-top: 17px;
 }
 
 .slider__slide-figure img {
-  width: 66px;
+  width: 100px;
   height: 150px;
   opacity: 0.4;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .slider__slide-figure--active img {
   width: 306px;
   height: 507px;
   opacity: 1;
+}
+
+.slider__controls {
+  display: none;
 }
 
 .slider__footer {
@@ -232,12 +246,31 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: -2px;
 }
 
 .slider__pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 8px;
+}
+
+.slider__pagination-buttom {
+  width: 12px;
+  height: 12px;
+  background: #fcfcfc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.slider__pagination-buttom--active {
+  opacity: 1;
 }
 
 .page-title {
@@ -550,16 +583,22 @@ body {
 .social-list {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
   list-style: none;
 }
 
 .social-list__item {
   width: 24px;
   height: 24px;
+  border-radius: 50%;
   background-color: black;
 }
 
 .button {
+  display: inline-block;
   padding: 12px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -569,48 +608,49 @@ body {
   text-decoration: none;
   background-color: var(--background-standard);
   background-clip: padding-box;
-  border: 4px solid var(--background-standard-opacity);
+  border: none;
   border-radius: 26px;
+  outline: 4px solid var(--background-standard-opacity);
   -webkit-box-shadow: 0 4px 12px var(--button-shadow);
           box-shadow: 0 4px 12px var(--button-shadow);
 }
 
 .button:hover {
   background-color: var(--background-standard-opacity);
-  border-color: var(--background-standard);
+  outline-color: var(--background-standard);
   -webkit-box-shadow: 0 4px 15px var(--button-shadow-hover);
           box-shadow: 0 4px 15px var(--button-shadow-hover);
 }
 
 .button:focus {
-  border: 2px solid var(--text-extra);
+  outline: 2px solid var(--text-extra);
 }
 
 .button--form {
   color: var(--background-standard);
   background-color: var(--background-button-form);
-  border: 4px solid var(--button-form-border);
+  outline: 4px solid var(--button-form-border);
 }
 
 .button--form:hover {
   color: var(--text-extra);
   background: var(--background-standard-opacity);
-  border-color: var(--background-button-form);
+  outline-color: var(--background-button-form);
 }
 
 .button--filter-form {
   padding: 8px 32px;
   background: var(--background-standard-opacity);
-  border: 2px solid var(--background-standard);
+  outline: 2px solid var(--background-standard);
 }
 
 .button--filter-form:hover {
   background: var(--background-standard);
-  border-color: var(--background-standard-opacity);
+  outline-color: var(--background-standard-opacity);
 }
 
 .button--filter-form:focus {
-  border-color: var(--text-extra);
+  outline-color: var(--text-extra);
 }
 
 .page-footer {
