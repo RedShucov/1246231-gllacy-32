@@ -3,28 +3,48 @@
 
   background-image: url(../img/img-decor/background/background-feedback.jpg);
   background-repeat: no-repeat;
+  border-radius: 16px;
 }
 
 .contacts__body {
   box-sizing: border-box;
-  max-width: 364px;
+  max-width: 343px;
   padding: 40px;
 
   background-color: var(--background-standard);
+  border-radius: 8px;
 }
 
 .contacts__adress {
   font-style: normal;
 }
 
+.contacts__text {
+  max-width: 203px;
+  margin: 0;
+}
+
 .contacts__text-lead {
+  margin-top: 12px;
+  margin-bottom: 24px;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: var(--text-extra);
 }
 
-.contacts__phone-number {
+.contacts__phonenumber {
+  margin-top: 12px;
+  margin-bottom: 31px;
+}
+
+.contacts__phonenumber a {
+  display: block;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
   color: var(--text-extra);
   text-decoration: none;
 }
@@ -32,4 +52,8 @@
 .contacts__sub-text {
   font-size: 14px;
   line-height: 20px;
+}
+
+.contacts__button {
+  word-spacing: -2px;
 }
