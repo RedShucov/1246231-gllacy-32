@@ -302,29 +302,32 @@
     <section class="delivery">
 
       <div class="delivery__body">
-        <h2 class="page-title">Доставка любимого мороженого на дом</h2>
+        <h2 class="delivery__page-title page-title">Доставка любимого мороженого на дом</h2>
 
         <p class="delivery__text">Хочется полакомиться любимым дессертом, но нет времени съездить в магазин? Закажите
-          доставку мороженого на дом и курьер привезет вам ваш заказ в течение часа!</p>
+          доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
       </div>
 
       <div class="delivery__form-wrapper">
-        <p class="delivery__text">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
+        <p class="delivery__form-text">Укажите адрес и дату доставки, и мы свяжемся с&nbsp;вами, чтобы подтвердить
+          заказ.</p>
 
         <form class="delivery__form" action="https://echo.htmlacademy.ru" method="post">
-          <p>
+          <p class="delivery__form-fieldset delivery__form-fieldset--date">
             <label class="delivery__form-label" for="date-delivery">Дата</label>
-            <input type="text" name="date" id="date-delivery" value="2020-04-01">
+            <input class="delivery__form-input" type="text" name="date" id="date-delivery" placeholder="01.04.2020">
           </p>
 
-          <p>
+          <p class="delivery__form-fieldset delivery__form-fieldset--phonenumber">
             <label class="delivery__form-label" for="phone-number-delivery">Телефон</label>
-            <input type="tel" name="phone-number" id="phone-number-delivery" placeholder="+7 800 999-00-00">
+            <input class="delivery__form-input" type="tel" name="phone-number" id="phone-number-delivery"
+              placeholder="+7 800 999-00-00">
           </p>
 
-          <p>
+          <p class="delivery__form-fieldset delivery__form-fieldset--adress">
             <label class="delivery__form-label" for="address-delivery">Адрес</label>
-            <input type="text" name="address" id="address-delivery" placeholder="ул. Большая Конюшенная, 19/8">
+            <input class="delivery__form-input" type="text" name="address" id="address-delivery"
+              placeholder="ул. Большая Конюшенная, 19/8">
           </p>
 
           <button class="delivery__form-button button button--form" type="submit">Отправить</button>
