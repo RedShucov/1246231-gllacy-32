@@ -1,9 +1,21 @@
 .news-block {
+  box-sizing: border-box;
+  max-width: 570px;
+  min-height: 216px;
+  padding-top: 32px;
+  padding-right: 235px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+
   background-image: url(../img/img-decor/background/background-news-block.jpg);
   background-repeat: no-repeat;
+  border-radius: 16px;
 }
 
 .news-block__subject {
+  margin-top: 0;
+  margin-bottom: 13px;
+
   line-height: 20px;
 }
 
@@ -12,6 +24,9 @@
 }
 
 .news-block__title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 24px;
   line-height: 30px;
   color: var(--text-extra);
