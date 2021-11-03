@@ -1,14 +1,24 @@
 .social-list {
+  display: flex;
+  height: 24px;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 16px;
+
   list-style: none;
+
+  gap: 16px;
 }
 
-.social-list__item {
-  width: 24px;
-  height: 24px;
+.social-list__item svg {
   border-radius: 50%;
+  outline: 2px solid rgba(252, 252, 252, 0.2);
+}
+
+.social-list__item:hover svg {
   background-color: black;
+}
+
+.social-list__item a:focus svg {
+  background-color: black;
+  outline: 2px solid black;
 }

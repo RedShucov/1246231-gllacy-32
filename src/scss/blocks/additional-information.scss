@@ -5,9 +5,25 @@
 
 .additional-information__list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+
+    display: grid;
+    grid-template-columns: max-content max-content;
+    // padding-left: 0px;
+    // margin-top: 50px;
+    // margin-left: 111px;
+    // margin-bottom: 0px;
+    row-gap: 8px;
+    column-gap: 25px;
+    max-width: 332px;
 }
 
 .additional-information__link {
   color: var(--text-extra);
   text-decoration: none;
+}
+
+.additional-information__link--active {
+  font-weight: bold;
 }
