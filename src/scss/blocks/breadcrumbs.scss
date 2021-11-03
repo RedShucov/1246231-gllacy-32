@@ -5,6 +5,8 @@
   font-weight: 700;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 29px;
 }
 
 .breadcrumbs__link {
@@ -12,4 +14,8 @@
   text-decoration: underline;
 
   text-decoration-color: var(--text-extra);
+}
+
+.breadcrumbs__link--active {
+  text-decoration: none;
 }
