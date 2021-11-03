@@ -48,9 +48,9 @@
 
   </header>
 
-  <main>
+  <main class="catalog-page">
 
-    <ul class="breadcrumbs">
+    <ul class="catalog-page__breadcrumbs breadcrumbs">
       <li>
         <a class="breadcrumbs__link" href="#">Главная</a>
       </li>
@@ -58,7 +58,7 @@
         <a class="breadcrumbs__link" href="#">Каталог</a>
       </li>
       <li>
-        <a class="breadcrumbs__link" href="#">Сливочное</a>
+        <a class="breadcrumbs__link breadcrumbs__link--active" href="#">Сливочное</a>
       </li>
     </ul>
 
@@ -68,16 +68,16 @@
 
       <h2 class="visually-hidden">Фильтрация списка товаров.</h2>
 
-      <form class="filter-from" action="https://echo.htmlacademy.ru" method="GET">
+      <form class="filter-form" action="https://echo.htmlacademy.ru" method="GET">
 
-        <fieldset class="filter-from__fieldset">
+        <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Сортировка:</legend>
           <select name="sorting" id="sorting-filter">
             <option value="popularity">по популярности</option>
           </select>
         </fieldset>
 
-        <fieldset class="filter-from__fieldset">
+        <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Цена: <span>100 ₽</span> – <span>500 ₽</span></legend>
           <button type="button">
             <span class="visually-hidden">Уменьшить цену.</span>
@@ -87,9 +87,9 @@
           </button>
         </fieldset>
 
-        <fieldset class="filter-from__fieldset">
+        <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Жирность:</legend>
-          <ul class="filter-from__fieldset-list">
+          <ul class="filter-form__fieldset-list">
             <li class="filter-form__radio">
               <label for="fatness-0-filter">
                 <input class="filter-form__radio-spy" type="radio" name="fatness" id="fatness-0-filter" value="0%">
@@ -124,9 +124,9 @@
           </ul>
         </fieldset>
 
-        <fieldset class="filter-from__fieldset">
+        <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Наполнители:</legend>
-          <ul class="filter-from__fieldset-list">
+          <ul class="filter-form__fieldset-list">
             <li class="filter-form__checkbox">
               <label for="chocolate-filter">
                 <input class="filter-form__checkbox-spy" type="checkbox" name="chocolate" id="chocolate-filter">
