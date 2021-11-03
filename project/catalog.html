@@ -72,24 +72,26 @@
 
         <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Сортировка:</legend>
-          <select name="sorting" id="sorting-filter">
+          <select class="filter-form__fieldset-body filter-form__fieldset-body--select" name="sorting" id="sorting-filter">
             <option value="popularity">по популярности</option>
           </select>
         </fieldset>
 
         <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Цена: <span>100 ₽</span> – <span>500 ₽</span></legend>
-          <button type="button">
-            <span class="visually-hidden">Уменьшить цену.</span>
-          </button>
-          <button type="button">
-            <span class="visually-hidden">Увеличить цену.</span>
-          </button>
+          <div class="filter-form__fieldset-body">
+            <button type="button">
+              <span class="visually-hidden">Уменьшить цену.</span>
+            </button>
+            <button type="button">
+              <span class="visually-hidden">Увеличить цену.</span>
+            </button>
+          </div>
         </fieldset>
 
         <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Жирность:</legend>
-          <ul class="filter-form__fieldset-list">
+          <ul class="filter-form__fieldset-body">
             <li class="filter-form__radio">
               <label for="fatness-0-filter">
                 <input class="filter-form__radio-spy" type="radio" name="fatness" id="fatness-0-filter" value="0%">
@@ -126,7 +128,7 @@
 
         <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Наполнители:</legend>
-          <ul class="filter-form__fieldset-list">
+          <ul class="filter-form__fieldset-body">
             <li class="filter-form__checkbox">
               <label for="chocolate-filter">
                 <input class="filter-form__checkbox-spy" type="checkbox" name="chocolate" id="chocolate-filter">
@@ -139,7 +141,7 @@
                 <input class="filter-form__checkbox-spy" type="checkbox" name="powdered-sugar"
                   id="powdered-sugar-filter">
                 <span class="filter-form__checkbox-visible"></span>
-                <span class="filter-form__text">сахарные присыпки</span>
+                <span class="filter-form__text">сахарные посыпки</span>
               </label>
             </li>
             <li class="filter-form__checkbox">
@@ -209,7 +211,7 @@
           <a class="card-ice-cream__link">
             <h3 class="card-ice-cream__title">Черника</h3>
           </a>
-          <p class="card-ice-cream__description">Крем-брюле с черничным джемом</p>
+          <p class="card-ice-cream__description">Крем-брюле с&nbsp;черничным джемом</p>
           <div class="card-ice-cream__footer">
             <b class="card-ice-cream__price">330 ₽/кг</b>
             <a class="card-ice-cream__button" href="#">
@@ -223,7 +225,7 @@
           <a class="card-ice-cream__link">
             <h3 class="card-ice-cream__title">Бабл-гам</h3>
           </a>
-          <p class="card-ice-cream__description">Ванильный пломбир со сладкой посыпкой</p>
+          <p class="card-ice-cream__description">Ванильный пломбир со&nbsp;сладкой посыпкой</p>
           <div class="card-ice-cream__footer">
             <b class="card-ice-cream__price">320 ₽/кг</b>
             <a class="card-ice-cream__button" href="#">
@@ -251,7 +253,7 @@
           <a class="card-ice-cream__link">
             <h3 class="card-ice-cream__title">Банан</h3>
           </a>
-          <p class="card-ice-cream__description">Сливочный пломбир с банановым вкусом</p>
+          <p class="card-ice-cream__description">Сливочный пломбир с&nbsp;банановым вкусом</p>
           <div class="card-ice-cream__footer">
             <b class="card-ice-cream__price">340 ₽/кг</b>
             <a class="card-ice-cream__button" href="#">
@@ -279,7 +281,7 @@
           <a class="card-ice-cream__link">
             <h3 class="card-ice-cream__title">Клубничка</h3>
           </a>
-          <p class="card-ice-cream__description">Сливочный пломбир с клубничным вкусом</p>
+          <p class="card-ice-cream__description">Сливочный пломбир с&nbsp;клубничным вкусом</p>
           <div class="card-ice-cream__footer">
             <b class="card-ice-cream__price">300 ₽/кг</b>
             <a class="card-ice-cream__button" href="#">
@@ -307,7 +309,7 @@
           <a class="card-ice-cream__link">
             <h3 class="card-ice-cream__title">Ментол</h3>
           </a>
-          <p class="card-ice-cream__description">Сливочный пломбир с ментоловым сиропом</p>
+          <p class="card-ice-cream__description">Сливочный пломбир с&nbsp;ментоловым сиропом</p>
           <div class="card-ice-cream__footer">
             <b class="card-ice-cream__price">320 ₽/кг</b>
             <a class="card-ice-cream__button" href="#">
@@ -335,7 +337,7 @@
           <a class="card-ice-cream__link">
             <h3 class="card-ice-cream__title">Крем-брюле</h3>
           </a>
-          <p class="card-ice-cream__description">Классическое крем-брюле</p>
+          <p class="card-ice-cream__description">Классическое крем&#8209;брюле</p>
           <div class="card-ice-cream__footer">
             <b class="card-ice-cream__price">280 ₽/кг</b>
             <a class="card-ice-cream__button" href="#">
