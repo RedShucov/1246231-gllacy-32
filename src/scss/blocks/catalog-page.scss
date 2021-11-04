@@ -1,3 +1,9 @@
+.catalog-page {
+  padding-bottom: 40px;
+
+  border-bottom: 1px solid var(--background-standard-opacity-3);
+}
+
 .catalog-page .breadcrumbs {
   margin-top: 29px;
 }
@@ -8,4 +14,9 @@
 
 .catalog-page .page-title {
   margin-top: 16px;
+  margin-bottom: 39px;
+}
+
+.catalog-page .filter-form {
+  margin-bottom: 48px;
 }

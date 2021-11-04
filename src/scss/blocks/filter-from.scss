@@ -1,15 +1,18 @@
-.filter-from {
+.filter-form {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-end;
   max-width: 807px;
 
   font-size: 14px;
   line-height: 20px;
   color: var(--text-extra);
+  column-gap: 22px;
+
+  row-gap: 16px;
 }
 
-.filter-from__fieldset {
+.filter-form__fieldset {
   margin: 0;
   padding: 0;
 
@@ -18,12 +21,35 @@
 
 .filter-form__fieldset-caption {
   margin: 0;
+  margin-bottom: 8px;
+  margin-left: 16px;
   padding: 0;
 }
 
-.filter-from__fieldset-list {
+.filter-form__fieldset-body {
+  display: flex;
+  box-sizing: border-box;
+  height: 36px;
   margin: 0;
   padding: 0;
+  padding: 8px 16px;
 
   list-style: none;
+
+  background-color: var(--background-standard-opacity-3);
+  border-radius: 20px;
+
+  gap: 16px;
+}
+
+.filter-form__fieldset-body--select {
+  margin-left: 0;
+  padding-right: 43px;
+  padding-left: 12px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter;
+
+  border: none;
 }

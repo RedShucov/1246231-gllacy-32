@@ -5,6 +5,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-family: Inter;
   text-align: center;
   color: var(--text-extra);
   text-decoration: none;
@@ -42,7 +43,9 @@
 }
 
 .button--filter-form {
-  padding: 8px 32px;
+  padding: 8px 53px;
+
+  font-size: 14px;
 
   background: var(--background-standard-opacity);
   outline: 2px solid var(--background-standard);
