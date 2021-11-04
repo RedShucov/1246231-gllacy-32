@@ -17,6 +17,8 @@
 }
 
 .product-list__footer {
+  position: relative;
+
   display: flex;
   justify-content: flex-end;
   padding-top: 57px;
@@ -24,7 +26,10 @@
 }
 
 .product-list__button {
-  margin-right: 335px;
+  position: absolute;
+  left: 50%;
+
+  transform: translateX(-51%);
 }
 
 .product-list__pagination {
