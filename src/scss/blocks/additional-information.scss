@@ -4,19 +4,16 @@
 }
 
 .additional-information__list {
-  list-style: none;
-  padding: 0;
+  display: grid;
+  max-width: 332px;
   margin: 0;
+  padding: 0;
 
-    display: grid;
-    grid-template-columns: max-content max-content;
-    // padding-left: 0px;
-    // margin-top: 50px;
-    // margin-left: 111px;
-    // margin-bottom: 0px;
-    row-gap: 8px;
-    column-gap: 25px;
-    max-width: 332px;
+  list-style: none;
+  column-gap: 25px;
+
+  grid-template-columns: max-content max-content;
+  row-gap: 8px;
 }
 
 .additional-information__link {
@@ -25,5 +22,20 @@
 }
 
 .additional-information__link--active {
+  position: relative;
+
   font-weight: bold;
+}
+
+.additional-information__link--active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -23px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url(../../img/img-decor/otherwise/heart.svg);
+  background-repeat: no-repeat;
 }
