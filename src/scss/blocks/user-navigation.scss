@@ -81,9 +81,13 @@
 }
 
 .user-navigation__link--log-in::before {
-  background-image: url(../../img/img-decor/interactive/log-in.svg);
+  background-image: url(../img/img-decor/interactive/log-in.svg);
 }
 
 .user-navigation__link--cart::before {
-  background-image: url(../../img/img-decor/interactive/cart.svg);
+  background-image: url(../img/img-decor/interactive/cart.svg);
+}
+
+.user-navigation__link--cart-full::before {
+  background-image: url(../img/img-decor/interactive/cart-with-items.svg);
 }
