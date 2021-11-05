@@ -1,21 +1,43 @@
 .breadcrumbs {
-  list-style: none;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 700;
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
+
+  list-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+
   gap: 29px;
 }
 
 .breadcrumbs__link {
+  position: relative;
+
   color: var(--text-extra);
   text-decoration: underline;
 
   text-decoration-color: var(--text-extra);
 }
 
+.breadcrumbs__item {
+  position: relative;
+}
+
+.breadcrumbs__item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -24px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url(../img/img-decor/otherwise/chevrons-right.svg);
+  background-repeat: no-repeat;
+}
+
 .breadcrumbs__link--active {
   text-decoration: none;
 }
+
