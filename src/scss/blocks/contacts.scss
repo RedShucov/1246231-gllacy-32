@@ -10,9 +10,10 @@
   box-sizing: border-box;
   max-width: 343px;
   padding: 40px;
-
+  min-height: 364px;
   background-color: var(--background-standard);
   border-radius: 8px;
+  box-shadow: 0 15px 40px var(--standard-shadow);
 }
 
 .contacts__adress {

@@ -23,7 +23,11 @@
   height: 85%;
 
   background-color: var(--background-standard);
-  border-radius: 2%;
+  border-radius: 3%;
+}
+
+.card-ice-cream__image {
+  filter: drop-shadow(0px 4px 12px var(--standard-shadow));
 }
 
 .card-ice-cream__link {
