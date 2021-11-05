@@ -25,4 +25,26 @@
 
   color: var(--text-extra);
   text-decoration: none;
+
+  border-radius: 26px;
+}
+
+.main-navigation__link--selected-page {
+  color: var(--background-standard);
+
+  background-color: var(--background-pink);
+}
+
+.main-navigation__link:hover {
+  background-color: var(--background-standard-opacity-5);
+}
+
+.main-navigation__link:focus {
+  background-color: var(--background-standard-opacity-5);
+  outline: 2px solid var(--text-extra);
+}
+
+.main-navigation__link:active {
+  background-color: var(--background-standard);
+  outline: none;
 }

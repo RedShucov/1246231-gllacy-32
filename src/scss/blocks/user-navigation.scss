@@ -44,13 +44,27 @@
   border-radius: 26px;
 }
 
+.user-navigation__link:hover {
+  background-color: var(--background-standard-opacity-5);
+}
+
+.user-navigation__link:focus {
+  background-color: var(--background-standard-opacity-5);
+  outline: 2px solid var(--text-extra);
+}
+
+.user-navigation__link:active {
+  background-color: var(--background-standard);
+  outline: none;
+}
+
 .user-navigation__link--search {
   display: block;
   width: 32px;
   height: 32px;
   padding: 0;
 
-  background-image: url(../../img/img-decor/interactive/search.svg);
+  background-image: url(../img/img-decor/interactive/search.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 18px;

@@ -2,13 +2,15 @@
   --background-button-form: #ff2f64;
   --background-cite: #feafc3;
   --background-extra: #ff7799;
-  --background-slide-item: #FFCBD8;
+  --background-pink: #ff4a78;
+  --background-slide-item: #ffcbd8;
   --background-standard: #fcfcfc;
   --background-standard-opacity: rgba(252, 252, 252, 0.4);
   --background-standard-opacity-3: rgba(252, 252, 252, 0.3);
+  --background-standard-opacity-5: rgba(252, 252, 252, 0.5);
   --button-form-border: #ff2f644d;
-  --standard-shadow: rgba(45, 52, 64, 0.12);
   --button-shadow-hover: rgba(133, 133, 133, 0.15);
+  --standard-shadow: rgba(45, 52, 64, 0.12);
   --standard-white: #fcfcfc;
   --text-extra: #2d3440;
   --text-inner-form: #b9b9b9;
@@ -113,6 +115,26 @@ body {
   padding: 8px 16px;
   color: var(--text-extra);
   text-decoration: none;
+  border-radius: 26px;
+}
+
+.main-navigation__link--selected-page {
+  color: var(--background-standard);
+  background-color: var(--background-pink);
+}
+
+.main-navigation__link:hover {
+  background-color: var(--background-standard-opacity-5);
+}
+
+.main-navigation__link:focus {
+  background-color: var(--background-standard-opacity-5);
+  outline: 2px solid var(--text-extra);
+}
+
+.main-navigation__link:active {
+  background-color: var(--background-standard);
+  outline: none;
 }
 
 .user-navigation {
@@ -163,12 +185,26 @@ body {
   border-radius: 26px;
 }
 
+.user-navigation__link:hover {
+  background-color: var(--background-standard-opacity-5);
+}
+
+.user-navigation__link:focus {
+  background-color: var(--background-standard-opacity-5);
+  outline: 2px solid var(--text-extra);
+}
+
+.user-navigation__link:active {
+  background-color: var(--background-standard);
+  outline: none;
+}
+
 .user-navigation__link--search {
   display: block;
   width: 32px;
   height: 32px;
   padding: 0;
-  background-image: url(../../img/img-decor/interactive/search.svg);
+  background-image: url(../img/img-decor/interactive/search.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 18px;
