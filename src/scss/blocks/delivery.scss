@@ -73,6 +73,7 @@
 
 .delivery__form-label--info {
   position: relative;
+
   padding-right: 19px;
 }
 
@@ -80,7 +81,7 @@
   content: "";
   position: absolute;
   top: 1px;
-  right: 0px;
+  right: 0;
 
   width: 16px;
   height: 16px;
@@ -103,6 +104,10 @@
   background-color: var(--standard-white);
   border: 1px solid var(--text-inner-form);
   border-radius: 4px;
+}
+
+.delivery__form-input::placeholder {
+  color: var(--text-inner-form);
 }
 
 .delivery__form-button {
