@@ -65,9 +65,33 @@
 }
 
 .card-ice-cream__button {
+  display: flex;
+  box-sizing: border-box;
   width: 32px;
   height: 32px;
 
   background-color: var(--background-button-form);
   border-radius: 50%;
+}
+
+.card-ice-cream__button-icon {
+  margin: auto;
+}
+
+.card-ice-cream__button path {
+  fill: var(--background-standard);
+}
+
+.card-ice-cream__button:hover {
+  background-color: var(--background-standard-opacity-3);
+  border: 2px solid var(--background-button-form);
+}
+
+.card-ice-cream__button:hover path {
+  fill: var(--text-extra);
+}
+
+.card-ice-cream__button:focus {
+  border: 2px solid var(--text-extra);
+  outline: none;
 }
