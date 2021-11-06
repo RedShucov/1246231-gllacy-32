@@ -4,7 +4,6 @@
   --background-extra: #ff7799;
   --background-pink: #ff4a78;
   --background-slide-item: #ffcbd8;
-  --background-standard: #fcfcfc;
   --background-standard-opacity: rgba(252, 252, 252, 0.4);
   --background-standard-opacity-3: rgba(252, 252, 252, 0.3);
   --background-standard-opacity-5: rgba(252, 252, 252, 0.5);
@@ -128,7 +127,7 @@ body {
 }
 
 .main-navigation__link--selected-page {
-  color: var(--background-standard);
+  color: var(--standard-white);
   background-color: var(--background-pink);
 }
 
@@ -142,7 +141,7 @@ body {
 }
 
 .main-navigation__link:active {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   outline: none;
 }
 
@@ -156,7 +155,7 @@ body {
   padding-bottom: 2px;
   list-style: none;
   white-space: nowrap;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border-radius: 4px;
   -webkit-filter: drop-shadow(0px 8px 16px var(--standard-shadow));
           filter: drop-shadow(0px 8px 16px var(--standard-shadow));
@@ -284,7 +283,7 @@ body {
 }
 
 .user-navigation__link:active {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   outline: none;
 }
 
@@ -506,7 +505,7 @@ body {
   height: 38px;
   padding: 0;
   background: var(--background-standard-opacity-3);
-  border: 2px solid var(--background-standard);
+  border: 2px solid var(--standard-white);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -518,8 +517,8 @@ body {
   width: 6px;
   height: 6px;
   margin: 0 auto;
-  border-top: 1.5px solid var(--background-standard);
-  border-right: 1.5px solid var(--background-standard);
+  border-top: 1.5px solid var(--standard-white);
+  border-right: 1.5px solid var(--standard-white);
 }
 
 .slider__controls-button--left::before {
@@ -535,7 +534,7 @@ body {
 }
 
 .slider__controls-button:hover {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
 }
 
 .slider__controls-button:hover::before {
@@ -582,11 +581,11 @@ body {
 }
 
 .slider__pagination-buttom--active {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
 }
 
 .slider__pagination-buttom:hover {
-  border: 1px solid var(--background-standard);
+  border: 1px solid var(--standard-white);
 }
 
 .slider__pagination-buttom:focus {
@@ -704,7 +703,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 85%;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border-radius: 3%;
 }
 
@@ -772,7 +771,7 @@ body {
 }
 
 .card-ice-cream__button path {
-  fill: var(--background-standard);
+  fill: var(--standard-white);
 }
 
 .card-ice-cream__button:hover {
@@ -797,7 +796,7 @@ body {
 
 .about-us__body {
   padding: 56px 40px;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border-radius: 16px;
 }
 
@@ -885,7 +884,7 @@ body {
   padding-right: 235px;
   padding-bottom: 32px;
   padding-left: 32px;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   background-image: url(../img/img-decor/background/background-news-block.jpg);
   background-repeat: no-repeat;
   border-radius: 16px;
@@ -935,7 +934,7 @@ body {
           box-sizing: border-box;
   min-height: 208px;
   padding: 26px;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border-radius: 16px;
 }
 
@@ -1015,7 +1014,7 @@ body {
   max-width: 500px;
   padding: 40px;
   padding-bottom: 43px;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border-radius: 8px;
   -webkit-box-shadow: 0 15px 40px var(--standard-shadow);
           box-shadow: 0 15px 40px var(--standard-shadow);
@@ -1145,7 +1144,7 @@ body {
   max-width: 343px;
   padding: 40px;
   min-height: 364px;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border-radius: 8px;
   -webkit-box-shadow: 0 15px 40px var(--standard-shadow);
           box-shadow: 0 15px 40px var(--standard-shadow);
@@ -1345,7 +1344,7 @@ body {
   width: 16px;
   height: 16px;
   padding: 0;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   border: 7px solid var(--text-extra);
   border-radius: 50%;
   cursor: pointer;
@@ -1361,12 +1360,12 @@ body {
 
 .filter-form__range-button:hover {
   background-color: var(--text-extra);
-  border-color: var(--background-standard);
+  border-color: var(--standard-white);
 }
 
 .filter-form__range-button:focus {
   background-color: var(--text-extra);
-  border-color: var(--background-standard);
+  border-color: var(--standard-white);
   outline: 3px solid var(--text-extra);
 }
 
@@ -1566,7 +1565,7 @@ body {
 }
 
 .product-list__pagination-link--active {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
 }
 
 .product-list__pagination-link:hover {
@@ -1574,7 +1573,7 @@ body {
 }
 
 .product-list__pagination-link:focus {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   outline: 1px solid var(--text-extra);
 }
 
@@ -1633,8 +1632,8 @@ body {
 .social-list img {
   border-radius: 50%;
   outline: 2px solid var(--background-standard-opacity-3);
-  -webkit-box-shadow: inset 0 0 0 2px var(--background-standard);
-          box-shadow: inset 0 0 0 2px var(--background-standard);
+  -webkit-box-shadow: inset 0 0 0 2px var(--standard-white);
+          box-shadow: inset 0 0 0 2px var(--standard-white);
 }
 
 .social-list img:hover {
@@ -1655,7 +1654,7 @@ body {
   text-align: center;
   color: var(--text-extra);
   text-decoration: none;
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   background-clip: padding-box;
   border: none;
   border-radius: 26px;
@@ -1666,7 +1665,7 @@ body {
 
 .button:hover {
   background-color: var(--background-standard-opacity);
-  outline-color: var(--background-standard);
+  outline-color: var(--standard-white);
   -webkit-box-shadow: 0 4px 15px var(--button-shadow-hover);
           box-shadow: 0 4px 15px var(--button-shadow-hover);
 }
@@ -1676,7 +1675,7 @@ body {
 }
 
 .button--form {
-  color: var(--background-standard);
+  color: var(--standard-white);
   background-color: var(--background-button-form);
   outline: 4px solid var(--button-form-border);
 }
@@ -1691,11 +1690,11 @@ body {
   padding: 8px 53px;
   font-size: 14px;
   background: var(--background-standard-opacity);
-  outline: 2px solid var(--background-standard);
+  outline: 2px solid var(--standard-white);
 }
 
 .button--filter-form:hover {
-  background: var(--background-standard);
+  background: var(--standard-white);
   outline-color: var(--background-standard-opacity);
 }
 

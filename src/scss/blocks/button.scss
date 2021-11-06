@@ -10,7 +10,7 @@
   color: var(--text-extra);
   text-decoration: none;
 
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   background-clip: padding-box;
   border: none;
   border-radius: 26px;
@@ -20,7 +20,7 @@
 
 .button:hover {
   background-color: var(--background-standard-opacity);
-  outline-color: var(--background-standard);
+  outline-color: var(--standard-white);
   box-shadow: 0 4px 15px var(--button-shadow-hover);
 }
 
@@ -29,7 +29,7 @@
 }
 
 .button--form {
-  color: var(--background-standard);
+  color: var(--standard-white);
 
   background-color: var(--background-button-form);
   outline: 4px solid var(--button-form-border);
@@ -48,11 +48,11 @@
   font-size: 14px;
 
   background: var(--background-standard-opacity);
-  outline: 2px solid var(--background-standard);
+  outline: 2px solid var(--standard-white);
 }
 
 .button--filter-form:hover {
-  background: var(--background-standard);
+  background: var(--standard-white);
   outline-color: var(--background-standard-opacity);
 }
 

@@ -75,7 +75,7 @@
 }
 
 .product-list__pagination-link--active {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
 }
 
 .product-list__pagination-link:hover {
@@ -83,7 +83,7 @@
 }
 
 .product-list__pagination-link:focus {
-  background-color: var(--background-standard);
+  background-color: var(--standard-white);
   outline: 1px solid var(--text-extra);
 }
 
