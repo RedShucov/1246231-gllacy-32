@@ -1334,27 +1334,27 @@ body {
           box-sizing: border-box;
   width: 16px;
   height: 16px;
-  background-image: url(../../img/img-decor/radio/radio-off.svg);
+  background-image: url(../img/img-decor/radio/radio-off.svg);
 }
 
 .filter-form__radio-spy:checked + .filter-form__radio-visible {
-  background-image: url(../../img/img-decor/radio/radio-on.svg);
+  background-image: url(../img/img-decor/radio/radio-on.svg);
 }
 
 .filter-form__radio-spy:checked:hover + .filter-form__radio-visible {
-  background-image: url(../../img/img-decor/radio/radio-on-hover.svg);
+  background-image: url(../img/img-decor/radio/radio-on-hover.svg);
 }
 
 .filter-form__radio-spy:hover + .filter-form__radio-visible {
-  background-image: url(../../img/img-decor/radio/radio-off-hover.svg);
+  background-image: url(../img/img-decor/radio/radio-off-hover.svg);
 }
 
 .filter-form__radio-spy:disabled + .filter-form__radio-visible {
-  background-image: url(../../img/img-decor/radio/radio-off-disable.svg);
+  background-image: url(../img/img-decor/radio/radio-off-disable.svg);
 }
 
 .filter-form__radio-spy:checked:disabled + .filter-form__radio-visible {
-  background-image: url(../../img/img-decor/radio/radio-on-disable.svg);
+  background-image: url(../img/img-decor/radio/radio-on-disable.svg);
 }
 
 .filter-form__checkbox {
@@ -1380,27 +1380,27 @@ body {
           box-sizing: border-box;
   width: 16px;
   height: 16px;
-  background-image: url(../../img/img-decor/checkbox/check-off.svg);
+  background-image: url(../img/img-decor/checkbox/check-off.svg);
 }
 
 .filter-form__checkbox-spy:checked + .filter-form__checkbox-visible {
-  background-image: url(../../img/img-decor/checkbox/check-on.svg);
+  background-image: url(../img/img-decor/checkbox/check-on.svg);
 }
 
 .filter-form__checkbox-spy:checked:hover + .filter-form__checkbox-visible {
-  background-image: url(../../img/img-decor/checkbox/check-on-hover.svg);
+  background-image: url(../img/img-decor/checkbox/check-on-hover.svg);
 }
 
 .filter-form__checkbox-spy:hover + .filter-form__checkbox-visible {
-  background-image: url(../../img/img-decor/checkbox/check-off-hover.svg);
+  background-image: url(../img/img-decor/checkbox/check-off-hover.svg);
 }
 
 .filter-form__checkbox-spy:disabled + .filter-form__checkbox-visible {
-  background-image: url(../../img/img-decor/checkbox/check-off-disable.svg);
+  background-image: url(../img/img-decor/checkbox/check-off-disable.svg);
 }
 
 .filter-form__checkbox-spy:checked:disabled + .filter-form__checkbox-visible {
-  background-image: url(../../img/img-decor/checkbox/check-on-disable.svg);
+  background-image: url(../img/img-decor/checkbox/check-on-disable.svg);
 }
 
 .product-list {
