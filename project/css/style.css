@@ -4,6 +4,7 @@
   --background-extra: #ff7799;
   --background-pink: #ff4a78;
   --background-slide-item: #ffcbd8;
+  --background-standard: #fcfcfc;
   --background-standard-opacity: rgba(252, 252, 252, 0.4);
   --background-standard-opacity-3: rgba(252, 252, 252, 0.3);
   --background-standard-opacity-5: rgba(252, 252, 252, 0.5);
@@ -1292,6 +1293,10 @@ body {
   appearance: none;
 }
 
+.filter-form__fieldset-body--select:hover {
+  color: var(--standard-white);
+}
+
 .filter-form__range-input {
   width: 30px;
   max-width: 39px;
@@ -1377,6 +1382,7 @@ body {
 
 .filter-form__label {
   position: relative;
+  cursor: pointer;
 }
 
 .filter-form__text {
@@ -1661,6 +1667,7 @@ body {
   outline: 4px solid var(--background-standard-opacity);
   -webkit-box-shadow: 0 4px 12px var(--standard-shadow);
           box-shadow: 0 4px 12px var(--standard-shadow);
+  cursor: pointer;
 }
 
 .button:hover {

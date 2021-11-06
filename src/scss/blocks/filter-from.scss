@@ -62,6 +62,10 @@
           appearance: none;
 }
 
+.filter-form__fieldset-body--select:hover {
+  color: var(--standard-white);
+}
+
 .filter-form__range-input {
   width: 30px;
   max-width: 39px;
@@ -152,6 +156,7 @@
 
 .filter-form__label {
   position: relative;
+  cursor: pointer;
 }
 
 .filter-form__text {
