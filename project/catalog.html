@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>HTML Academy: Глейси-каталог</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -64,9 +65,9 @@
       </li>
     </ul>
 
-    <h1 class="page-title">Сливочное мороженое</h1>
+    <h1 class="page-title catalog-page__page-title">Сливочное мороженое</h1>
 
-    <section>
+    <section class="catalog-page__filter-form">
 
       <h2 class="visually-hidden">Фильтрация списка товаров.</h2>
 
@@ -186,7 +187,7 @@
 
     </section>
 
-    <section class="product-list">
+    <section class="product-list catalog-page__product-list">
       <h2 class="visually-hidden">Каталог товаров.</h2>
 
       <ul class="product-list__body">
@@ -436,27 +437,27 @@
         <button class="product-list__button button">Показать ещё</button>
 
         <ol class="product-list__pagination">
-          <li>
+          <li class="product-list__pagination-item product-list__pagination-item--disabled">
             <a class="product-list__pagination-previous" href="#">
               <span class="visually-hidden">Предыдущая страница.</span>
             </a>
           </li>
-          <li>
+          <li class="product-list__pagination-item">
             <a class="product-list__pagination-link product-list__pagination-link--active" href="#">1</a>
           </li>
-          <li>
+          <li class="product-list__pagination-item">
             <a class="product-list__pagination-link" href="#">2</a>
           </li>
-          <li>
+          <li class="product-list__pagination-item">
             <a class="product-list__pagination-link" href="#">3</a>
           </li>
-          <li>
+          <li class="product-list__pagination-item">
             <a class="product-list__pagination-link" href="#">4</a>
           </li>
-          <li>
+          <li class="product-list__pagination-item">
             <a class="product-list__pagination-link" href="#">5</a>
           </li>
-          <li>
+          <li class="product-list__pagination-item">
             <a class="product-list__pagination-next" href="#">
               <span class="visually-hidden">Следующая страница.</span>
             </a>

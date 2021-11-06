@@ -1,22 +1,21 @@
 .catalog-page {
-  padding-bottom: 40px;
+  padding-bottom: 91px;
 
   border-bottom: 1px solid var(--background-standard-opacity-3);
-}
-
-.catalog-page .breadcrumbs {
-  margin-top: 29px;
 }
 
 .catalog-page__breadcrumbs {
   margin-top: 29px;
 }
 
-.catalog-page .page-title {
+.catalog-page__page-title {
   margin-top: 16px;
-  margin-bottom: 39px;
 }
 
-.catalog-page .filter-form {
-  margin-bottom: 48px;
+.catalog-page__filter-form {
+  margin-top: 39px;
+}
+
+.catalog-page__product-list {
+  margin-top: 49px;
 }
