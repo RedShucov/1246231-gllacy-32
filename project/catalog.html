@@ -81,92 +81,125 @@
         </fieldset>
 
         <fieldset class="filter-form__fieldset">
-          <legend class="filter-form__fieldset-caption">Цена: <span>100 ₽</span> – <span>500 ₽</span></legend>
+          <legend class="filter-form__fieldset-caption">
+            Цена:
+            <input class="filter-form__range-input" type="number" value="100"></input>₽
+            –
+            <input class="filter-form__range-input" value="500"></input>₽
+          </legend>
+
           <div class="filter-form__fieldset-body">
-            <button type="button">
-              <span class="visually-hidden">Уменьшить цену.</span>
-            </button>
-            <button type="button">
-              <span class="visually-hidden">Увеличить цену.</span>
-            </button>
+            <div class="filter-form__range-scale">
+              <div class="filter-form__range-bar">
+                <button class="filter-form__range-button filter-form__range-button--min" type="button">
+                  <span class="visually-hidden">Уменьшить минимальную цену.</span>
+                </button>
+                <button class="filter-form__range-button filter-form__range-button--max" type="button">
+                  <span class="visually-hidden">Увеличить максимульную цену.</span>
+                </button>
+              </div>
+            </div>
           </div>
         </fieldset>
 
         <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Жирность:</legend>
           <ul class="filter-form__fieldset-body">
-            <li class="filter-form__radio">
-              <label for="fatness-0-filter">
+
+
+            <li>
+              <label class="filter-form__label" for="fatness-0-filter">
                 <input class="filter-form__radio-spy" type="radio" name="fatness" id="fatness-0-filter" value="0%">
                 <span class="filter-form__radio-visible"></span>
                 <span class="filter-form__text">0%</span>
               </label>
             </li>
-            <li class="filter-form__radio">
-              <label for="fatness-10-filter">
+
+
+            <li>
+              <label class="filter-form__label" for="fatness-10-filter">
                 <input class="filter-form__radio-spy" type="radio" name="fatness" id="fatness-10-filter"
-                  value="up to 10%">
+                  value="up to 10%" checked>
                 <span class="filter-form__radio-visible"></span>
                 <span class="filter-form__text">до 10%</span>
               </label>
             </li>
-            <li class="filter-form__radio">
-              <label for="fatness-30-filter">
+
+
+            <li>
+              <label class="filter-form__label" for="fatness-30-filter">
                 <input class="filter-form__radio-spy" type="radio" name="fatness" id="fatness-30-filter"
                   value="up to 30%">
                 <span class="filter-form__radio-visible"></span>
                 <span class="filter-form__text">до 30%</span>
               </label>
             </li>
-            <li class="filter-form__radio">
-              <label for="fatness-70-filter">
+
+
+            <li>
+              <label class="filter-form__label" for="fatness-70-filter">
                 <input class="filter-form__radio-spy" type="radio" name="fatness" id="fatness-70-filter"
                   value="up to 70%">
                 <span class="filter-form__radio-visible"></span>
                 <span class="filter-form__text">выше 30%</span>
               </label>
             </li>
+
+
           </ul>
         </fieldset>
 
         <fieldset class="filter-form__fieldset">
           <legend class="filter-form__fieldset-caption">Наполнители:</legend>
           <ul class="filter-form__fieldset-body">
+
+
             <li class="filter-form__checkbox">
-              <label for="chocolate-filter">
-                <input class="filter-form__checkbox-spy" type="checkbox" name="chocolate" id="chocolate-filter">
+              <label class="filter-form__label" for="chocolate-filter">
+                <input class="filter-form__checkbox-spy" type="checkbox" name="chocolate" id="chocolate-filter" checked>
                 <span class="filter-form__checkbox-visible"></span>
                 <span class="filter-form__text">шоколадные</span>
               </label>
             </li>
+
+
             <li class="filter-form__checkbox">
-              <label for="powdered-sugar-filter">
+              <label class="filter-form__label" for="powdered-sugar-filter">
                 <input class="filter-form__checkbox-spy" type="checkbox" name="powdered-sugar"
-                  id="powdered-sugar-filter">
+                  id="powdered-sugar-filter" checked>
                 <span class="filter-form__checkbox-visible"></span>
                 <span class="filter-form__text">сахарные посыпки</span>
               </label>
             </li>
+
+
             <li class="filter-form__checkbox">
-              <label for="fruits-filter">
+              <label class="filter-form__label" for="fruits-filter">
                 <input class="filter-form__checkbox-spy" type="checkbox" name="fruits" id="fruits-filter">
                 <span class="filter-form__checkbox-visible"></span>
                 <span class="filter-form__text">фрукты</span>
               </label>
             </li>
+
+
             <li class="filter-form__checkbox">
-              <label for="syrups-filter">
+              <label class="filter-form__label" for="syrups-filter">
                 <input class="filter-form__checkbox-spy" type="checkbox" name="syrups" id="syrups-filter">
                 <span class="filter-form__checkbox-visible"></span>
                 <span class="filter-form__text">сиропы</span>
               </label>
+
+
             <li class="filter-form__checkbox">
-              <label for="jams-filter">
+              <label class="filter-form__label" for="jams-filter">
                 <input class="filter-form__checkbox-spy" type="checkbox" name="jams" id="jams-filter">
                 <span class="filter-form__checkbox-visible"></span>
                 <span class="filter-form__text">джемы</span>
               </label>
             </li>
+
+
+
           </ul>
         </fieldset>
 
