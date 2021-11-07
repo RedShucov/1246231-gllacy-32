@@ -355,7 +355,12 @@
 
         <form class="delivery__form" action="https://echo.htmlacademy.ru" method="post">
           <p class="delivery__form-fieldset delivery__form-fieldset--date">
-            <label class="delivery__form-label delivery__form-label--info" for="date-delivery">Дата</label>
+            <label class="delivery__form-label delivery__form-label--info" for="date-delivery">
+              <span>Дата</span>
+              <span class="delivery__form-label-info">
+                <span class="delivery__form-label-tooltipe">Введите название желаемой даты доставки</span>
+              </span>
+            </label>
             <input class="delivery__form-input" type="text" name="date" id="date-delivery" placeholder="01.04.2020">
           </p>
 
@@ -366,7 +371,12 @@
           </p>
 
           <p class="delivery__form-fieldset delivery__form-fieldset--adress">
-            <label class="delivery__form-label delivery__form-label--info" for="address-delivery">Адрес</label>
+            <label class="delivery__form-label delivery__form-label--info" for="address-delivery">
+              <span>Адрес</span>
+              <span class="delivery__form-label-info">
+                <span class="delivery__form-label-tooltipe">Введите название улицы,&nbsp;дома и квартиры</span>
+              </span>
+            </label>
             <input class="delivery__form-input" type="text" name="address" id="address-delivery"
               placeholder="ул. Большая Конюшенная, 19/8">
           </p>
