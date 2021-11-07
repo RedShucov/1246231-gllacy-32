@@ -1329,7 +1329,12 @@ body {
 }
 
 .filter-form__fieldset-body--select:hover {
-  color: var(--standard-white);
+  background-color: var(--background-standard-opacity-5);
+}
+
+.filter-form__fieldset-body--select:focus {
+  background-color: var(--background-standard-opacity);
+  outline: 2px solid var(--standard-white);
 }
 
 .filter-form__range-input {
