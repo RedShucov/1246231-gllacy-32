@@ -1616,10 +1616,11 @@ body {
 
 .product-list__pagination-link:hover {
   background-color: var(--background-standard-opacity);
+  outline: 1px solid var(--standard-white);
 }
 
 .product-list__pagination-link:focus {
-  background-color: var(--standard-white);
+  background-color: var(--background-standard-opacity-3);
   outline: 1px solid var(--text-extra);
 }
 
