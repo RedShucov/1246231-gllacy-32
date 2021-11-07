@@ -44,6 +44,28 @@
   color: var(--text-inner-form);
 }
 
+.subscription__form-field:hover {
+  border: 1px solid var(--text-extra);
+  outline: none;
+}
+
+.subscription__form-field:focus {
+  border-color: var(--text-extra);
+  outline: 1px solid var(--text-extra);
+}
+
+.subscription__form-field:hover:focus {
+  outline: 1px solid var(--text-extra);
+}
+
+.subscription__form-field:invalid {
+  border: 1px solid var(--red-standard);
+}
+
+.subscription__form-field:hover:invalid {
+  border-color: var(--red-standard);
+  outline: 1px solid var(--red-standard);
+}
 
 .subscription__form-button {
   margin-left: 18px;
