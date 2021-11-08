@@ -360,6 +360,7 @@ body {
   top: 53px;
   right: 0;
   z-index: 1;
+  display: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 356px;
@@ -367,11 +368,10 @@ body {
   padding-right: 16px;
   padding-bottom: 24px;
   padding-left: 16px;
-  background: #fcfcfc;
+  background: var(--standard-white);
   border-radius: 4px;
-  -webkit-filter: drop-shadow(0px 8px 16px rgba(45, 52, 64, 0.12));
-          filter: drop-shadow(0px 8px 16px rgba(45, 52, 64, 0.12));
-  display: none;
+  -webkit-filter: drop-shadow(0px 8px 16px var(--standard-shadow));
+          filter: drop-shadow(0px 8px 16px var(--standard-shadow));
 }
 
 .popover-search__field {
@@ -388,29 +388,29 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-family: "Inter", sans-serif;
-  background: #ffffff;
-  border: 1px solid #b9b9b9;
+  background: var(--white);
+  border: 1px solid var(--text-inner-form);
   border-radius: 4px;
 }
 
 .popover-search__form-input::-webkit-input-placeholder {
-  color: #b9b9b9;
+  color: var(--text-inner-form);
 }
 
 .popover-search__form-input::-moz-placeholder {
-  color: #b9b9b9;
+  color: var(--text-inner-form);
 }
 
 .popover-search__form-input:-ms-input-placeholder {
-  color: #b9b9b9;
+  color: var(--text-inner-form);
 }
 
 .popover-search__form-input::-ms-input-placeholder {
-  color: #b9b9b9;
+  color: var(--text-inner-form);
 }
 
 .popover-search__form-input::placeholder {
-  color: #b9b9b9;
+  color: var(--text-inner-form);
 }
 
 .popover-search__form-input:focus {
