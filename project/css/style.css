@@ -1875,7 +1875,8 @@ body {
   background-image: url(../img/img-decor/radio/radio-on.svg);
 }
 
-.filter-form__radio-spy:checked:hover + .filter-form__radio-visible {
+.filter-form__radio-spy:checked:hover + .filter-form__radio-visible,
+.filter-form__radio-spy:checked:focus + .filter-form__radio-visible {
   background-image: url(../img/img-decor/radio/radio-on-hover.svg);
 }
 
@@ -1921,11 +1922,13 @@ body {
   background-image: url(../img/img-decor/checkbox/check-on.svg);
 }
 
-.filter-form__checkbox-spy:checked:hover + .filter-form__checkbox-visible {
+.filter-form__checkbox-spy:checked:hover + .filter-form__checkbox-visible,
+.filter-form__checkbox-spy:checked:focus + .filter-form__checkbox-visible {
   background-image: url(../img/img-decor/checkbox/check-on-hover.svg);
 }
 
-.filter-form__checkbox-spy:hover + .filter-form__checkbox-visible {
+.filter-form__checkbox-spy:hover + .filter-form__checkbox-visible,
+.filter-form__checkbox-spy:focus + .filter-form__checkbox-visible {
   background-image: url(../img/img-decor/checkbox/check-off-hover.svg);
 }
 
