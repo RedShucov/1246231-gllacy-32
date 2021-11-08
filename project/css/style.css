@@ -2053,7 +2053,7 @@ body {
 .product-list__pagination-previous {
   width: inherit;
   height: inherit;
-  background-image: url(../../img/img-decor/interactive/arrow-left.svg);
+  background-image: url(../img/img-decor/interactive/arrow-left.svg);
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
@@ -2061,7 +2061,7 @@ body {
 .product-list__pagination-next {
   width: inherit;
   height: inherit;
-  background-image: url(../../img/img-decor/interactive/arrow-right.svg);
+  background-image: url(../img/img-decor/interactive/arrow-right.svg);
   background-repeat: no-repeat;
   background-position: 100% 50%;
 }
@@ -2232,7 +2232,7 @@ body {
   left: -23px;
   width: 15px;
   height: 15px;
-  background-image: url(../../img/img-decor/otherwise/heart.svg);
+  background-image: url(../img/img-decor/otherwise/heart.svg);
   background-repeat: no-repeat;
 }
 
