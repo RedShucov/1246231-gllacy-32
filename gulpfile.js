@@ -50,6 +50,12 @@ export const styles = () => {
     .pipe(sync.stream())
 }
 
+// JS
+export const js = () => {
+  return src('src/js/*js')
+    .pipe(dest('project/js'))
+    .pipe(sync.stream())
+}
 
 // Fonts
 export const fonts = () => {
@@ -85,6 +91,7 @@ export const images = () => (
 export const watching = () => {
   watch('src/scss/**/*.scss', styles).on('change', sync.reload);
   watch('src/*.html', html).on('change', sync.reload);
+  watch('src/js/*js', js).on('change', sync.reload);
 }
 
 
@@ -112,7 +119,8 @@ export default series(
   clearDist,
   parallel(
     html,
-    styles
+    styles,
+    js
   ),
   images,
   fonts,
