@@ -21,6 +21,8 @@
 }
 
 .user-navigation__item {
+  position: relative;
+
   display: flex;
 }
 
@@ -108,4 +110,8 @@
 
 .user-navigation__link--cart-full::before {
   background-image: url(../img/img-decor/interactive/cart-with-items.svg);
+}
+
+.user-navigation__item:hover .popover-search {
+  display: block;
 }
