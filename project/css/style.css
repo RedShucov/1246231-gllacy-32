@@ -231,9 +231,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 14px;
   line-height: 20px;
   gap: 20px;
@@ -245,9 +242,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   max-width: 296px;
   margin: 0;
   margin-bottom: 3px;
@@ -256,7 +250,16 @@ body {
   gap: 16px;
 }
 
+.user-navigation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .user-navigation__phone-number {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin-bottom: 3px;
   font-weight: 700;
   font-size: 16px;
@@ -265,6 +268,9 @@ body {
 }
 
 .user-navigation__link {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding-top: 7px;
   padding-right: 16px;
   padding-bottom: 6px;
