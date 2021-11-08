@@ -14,6 +14,7 @@
   --small-shadow: rgba(194, 194, 194, 0.2);
   --standard-shadow: rgba(45, 52, 64, 0.12);
   --standard-white: #fcfcfc;
+  --white: #ffffff;
   --text-extra: #2d3440;
   --text-inner-form: #b9b9b9;
   --text-strandard: #565c66;
@@ -344,6 +345,10 @@ body {
   display: block;
 }
 
+.user-navigation__item:hover .popover-auth {
+  display: block;
+}
+
 .popover-search {
   position: absolute;
   top: 53px;
@@ -443,6 +448,116 @@ body {
 
 .popover-search__form-input:not(:placeholder-shown) + .popover-search__close-button {
   z-index: 0;
+}
+
+.popover-auth {
+  position: absolute;
+  top: 53px;
+  right: 0;
+  z-index: 1;
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 420px;
+  padding: 48px;
+  padding-bottom: 51px;
+  background: var(--standard-white);
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(0px 15px 40px var(--standard-shadow));
+          filter: drop-shadow(0px 15px 40px var(--standard-shadow));
+}
+
+.popover-auth__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.popover-auth__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 32px;
+  row-gap: 18px;
+}
+
+.popover-auth__form-field {
+  margin: 0;
+}
+
+.popover-auth__form-input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  background: var(--white);
+  border: 1px solid var(--text-inner-form);
+  border-radius: 4px;
+}
+
+.popover-auth__form-input:focus {
+  border-color: var(--text-extra);
+  outline: 1px solid var(--text-extra);
+}
+
+.popover-auth__form-input:hover {
+  border: 1px solid var(--text-extra);
+}
+
+.popover-auth__form-input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.popover-auth__form-input::-moz-placeholder {
+  opacity: 1;
+}
+
+.popover-auth__form-input:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.popover-auth__form-input::-ms-input-placeholder {
+  opacity: 1;
+}
+
+.popover-auth__form-input::placeholder {
+  opacity: 1;
+}
+
+.popover-auth__form-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 11px;
+  -webkit-column-gap: 23px;
+     -moz-column-gap: 23px;
+          column-gap: 23px;
+}
+
+.popover-auth__user-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 4px;
+}
+
+.popover-auth__user-option {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-extra);
 }
 
 .main-page__special-promotions {
