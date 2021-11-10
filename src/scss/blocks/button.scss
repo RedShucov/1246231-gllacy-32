@@ -60,3 +60,93 @@
 .button--filter-form:focus {
   outline-color: var(--text-extra);
 }
+
+.button--filter-form:disabled {
+  cursor: default;
+
+  pointer-events: none;
+
+  opacity: 0.4;
+}
+
+.button--disabled {
+  color: #b9b9b9;
+
+  background-color: #e7e7e7;
+  cursor: default;
+
+  pointer-events: none;
+}
+
+.button-form--disabled {
+  color: #565c66;
+
+  background: #b9b9b9;
+  outline: 4px solid rgba(185, 185, 185, 0.3);
+  cursor: default;
+
+  pointer-events: none;
+}
+
+
+.button--spiner {
+  position: relative;
+
+  padding-right: 56px;
+}
+
+.button--spiner::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 25px;
+
+  display: block;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+
+  border-top: 2px solid rgba(36,36,36,0.24);
+  border-right: 2px solid rgba(36,36,36,0.24);
+  border-bottom: 2px solid rgba(36,36,36,0.24);
+  border-left: 2px solid #242424;
+  border-radius: 50%;
+
+  animation: spinner 1s linear infinite;
+}
+
+.button--spiner-form {
+  position: relative;
+
+  padding-right: 56px;
+}
+
+.button--spiner-form::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 25px;
+
+  display: block;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+
+  border-top: 2px solid var(--background-standard-opacity-3);
+  border-right: 2px solid var(--background-standard-opacity-3);
+  border-bottom: 2px solid var(--background-standard-opacity-3);
+  border-left: 2px solid var(--standard-white);
+  border-radius: 50%;
+
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
