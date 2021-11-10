@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  max-width: 813px;
+  max-width: 900px;
 
   font-size: 14px;
   line-height: 20px;
@@ -28,8 +28,9 @@
 
 .filter-form__fieldset-body {
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
-  height: 36px;
+  min-height: 36px;
   margin: 0;
   padding: 0;
   padding: 8px 16px;
