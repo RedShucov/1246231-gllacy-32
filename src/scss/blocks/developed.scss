@@ -9,5 +9,20 @@
 }
 
 .developed__link {
+  position: relative;
+
   color: var(--text-extra);
+  text-decoration: none;
+}
+
+.developed__link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+
+  width: 99%;
+  height: 1px;
+
+  background-color: var(--text-extra);
 }
