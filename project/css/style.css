@@ -19,7 +19,10 @@
   --text-inner-form: #b9b9b9;
   --text-strandard: #565c66;
   --grey-lite: #e7e7e7;
+  --grey-opacity-3: rgba(185, 185, 185, 0.3);
   --module-mask: rgba(45, 52, 64, 0.5);
+  --very-dark-gray: #242424;
+  --very-dark-gray-opacity-2: rgba(36,36,36,0.24);
 }
 
 @font-face {
@@ -1179,7 +1182,7 @@ body {
 }
 
 .card-ice-cream__button--disabled {
-  background: #b9b9b9;
+  background-color: var(--text-inner-form);
   cursor: default;
   pointer-events: none;
 }
@@ -2205,21 +2208,21 @@ body {
 
 .button--filter-form:disabled {
   cursor: default;
-  pointer-events: none;
   opacity: 0.4;
+  pointer-events: none;
 }
 
 .button--disabled {
-  color: #b9b9b9;
-  background-color: #e7e7e7;
+  color: var(--text-inner-form);
+  background-color: var(--grey-lite);
   cursor: default;
   pointer-events: none;
 }
 
 .button-form--disabled {
-  color: #565c66;
-  background: #b9b9b9;
-  outline: 4px solid rgba(185, 185, 185, 0.3);
+  color: var(--text-strandard);
+  background: var(--text-inner-form);
+  outline: 4px solid var(--grey-opacity-3);
   cursor: default;
   pointer-events: none;
 }
@@ -2239,10 +2242,10 @@ body {
           box-sizing: border-box;
   width: 16px;
   height: 16px;
-  border-top: 2px solid rgba(36, 36, 36, 0.24);
-  border-right: 2px solid rgba(36, 36, 36, 0.24);
-  border-bottom: 2px solid rgba(36, 36, 36, 0.24);
-  border-left: 2px solid #242424;
+  border-top: 2px solid var(--very-dark-gray-opacity-2);
+  border-right: 2px solid var(--very-dark-gray-opacity-2);
+  border-bottom: 2px solid var(--very-dark-gray-opacity-2);
+  border-left: 2px solid var(--very-dark-gray);
   border-radius: 50%;
   -webkit-animation: spinner 1s linear infinite;
           animation: spinner 1s linear infinite;

@@ -102,7 +102,7 @@
 }
 
 .card-ice-cream__button--disabled {
-  background: #b9b9b9;
+  background-color: var(--text-inner-form);
   cursor: default;
 
   pointer-events: none;
