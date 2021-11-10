@@ -4,25 +4,25 @@
   --background-extra: #ff7799;
   --background-pink: #ff4a78;
   --background-slide-item: #ffcbd8;
-  --background-standard-opacity: rgba(252, 252, 252, 0.4);
+  --background-standard-opacity: #fcfcfc66;
   --background-standard-opacity-3: rgba(252, 252, 252, 0.3);
   --background-standard-opacity-5: rgba(252, 252, 252, 0.5);
   --black-standard-opacity-3: rgba(86, 92, 102, 0.3);
   --button-form-border: #ff2f644d;
   --button-shadow-hover: rgba(133, 133, 133, 0.15);
-  --grey-lite: #e7e7e7;
-  --grey-opacity-3: rgba(185, 185, 185, 0.3);
-  --module-mask: rgba(45, 52, 64, 0.5);
   --red-standard: #ea5454;
   --small-shadow: rgba(194, 194, 194, 0.2);
   --standard-shadow: rgba(45, 52, 64, 0.12);
   --standard-white: #fcfcfc;
+  --white: #ffffff;
   --text-extra: #2d3440;
   --text-inner-form: #b9b9b9;
   --text-strandard: #565c66;
+  --grey-lite: #e7e7e7;
+  --grey-opacity-3: rgba(185, 185, 185, 0.3);
+  --module-mask: rgba(45, 52, 64, 0.5);
   --very-dark-gray: #242424;
   --very-dark-gray-opacity-2: rgba(36,36,36,0.24);
-  --white: #ffffff;
 }
 
 @font-face {
