@@ -65,26 +65,28 @@ export const fonts = () => {
 
 
 // Images
-export const images = () => (
-  src('src/img/**/*')
-    .pipe(imagemin([
-      imagemin.gifsicle({ interlaced: true }),
-      imagemin.mozjpeg({ quality: 75, progressive: true }),
-      imagemin.optipng({ optimizationLevel: 5 }),
-      imagemin.svgo({
-        plugins: [
-          {
-            removeViewBox: false
-          }
-        ]
-      })
-    ], {
-      verbose: true
-    }
-    ))
-    .pipe(dest('project/img'))
-    .pipe(sync.stream())
-);
+export const images = () => {
+  return src('src/*.ico')
+    .pipe(dest('project/')),
+    src('src/img/**/*')
+      .pipe(imagemin([
+        imagemin.gifsicle({ interlaced: true }),
+        imagemin.mozjpeg({ quality: 75, progressive: true }),
+        imagemin.optipng({ optimizationLevel: 5 }),
+        imagemin.svgo({
+          plugins: [
+            {
+              removeViewBox: false
+            }
+          ]
+        })
+      ], {
+        verbose: true
+      }
+      ))
+      .pipe(dest('project/img'))
+      .pipe(sync.stream())
+}
 
 
 // Watching
