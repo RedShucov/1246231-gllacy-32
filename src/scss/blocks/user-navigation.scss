@@ -1,5 +1,7 @@
 .user-navigation {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 462px;
 
   font-size: 14px;
   line-height: 20px;

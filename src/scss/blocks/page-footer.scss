@@ -1,12 +1,19 @@
 .page-footer {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 48px;
+  display: grid;
+  padding-top: 47px;
   padding-right: 14px;
-  padding-bottom: 48px;
   padding-left: 4px;
+
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.page-footer .additional-information {
-  margin-left: 121px;
+.page-footer__additional-information {
+  margin-right: 0;
+  margin-left: 43px;
+
+  justify-self: start;
+}
+
+.page-footer__developed {
+  justify-self: end;
 }

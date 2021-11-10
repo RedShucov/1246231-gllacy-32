@@ -234,6 +234,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 462px;
   font-size: 14px;
   line-height: 20px;
   gap: 20px;
@@ -987,6 +990,7 @@ body {
 
 .special-promotions__page-title {
   margin-bottom: 54px;
+  padding: 0 321px;
   text-align: center;
 }
 
@@ -1040,6 +1044,7 @@ body {
 
 .most-popular__page-title {
   margin-bottom: 56px;
+  padding: 0 321px;
   text-align: center;
 }
 
@@ -2108,6 +2113,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 24px;
   margin: 0;
   padding: 0;
@@ -2287,20 +2294,25 @@ body {
 }
 
 .page-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 48px;
+  display: -ms-grid;
+  display: grid;
+  padding-top: 47px;
   padding-right: 14px;
-  padding-bottom: 48px;
   padding-left: 4px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.page-footer .additional-information {
-  margin-left: 121px;
+.page-footer__additional-information {
+  margin-right: 0;
+  margin-left: 43px;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.page-footer__developed {
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .additional-information {
@@ -2311,7 +2323,6 @@ body {
 .additional-information__list {
   display: -ms-grid;
   display: grid;
-  max-width: 332px;
   margin: 0;
   padding: 0;
   list-style: none;
