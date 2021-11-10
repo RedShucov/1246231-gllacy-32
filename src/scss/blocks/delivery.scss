@@ -100,7 +100,7 @@
 
 .delivery__form-label-tooltipe {
   position: absolute;
-  top: -35%;
+  top: -75%;
   left: 25px;
 
   width: 168px;
@@ -121,15 +121,17 @@
 .delivery__form-label-tooltipe::after {
   content: "";
   position: absolute;
-  top: 8px;
-  left: -6px;
+  top: 14px;
+  left: 0;
 
-  width: 8px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
 
   background-color: var(--standard-white);
-  background-image: url(../img/img-decor/otherwise/arrow-left.svg);
-  background-position: center;
+  border: 1px solid var(--text-inner-form);
+  border-top: none;
+  border-right: none;
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .delivery__form-label-info:hover .delivery__form-label-tooltipe {
