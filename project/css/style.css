@@ -399,7 +399,7 @@ body {
   padding-left: 16px;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   background: var(--white);
   border: 1px solid var(--text-inner-form);
   border-radius: 4px;
@@ -517,7 +517,7 @@ body {
   padding-left: 16px;
   font-weight: 400;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   background: var(--white);
   border: 1px solid var(--text-inner-form);
   border-radius: 4px;
@@ -1772,7 +1772,7 @@ body {
   padding-left: 12px;
   font-size: 14px;
   line-height: 20px;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   background-image: url(../img/img-decor/interactive/arrow-down.svg);
   background-repeat: no-repeat;
   background-position: right 14px top 11px;
@@ -2157,7 +2157,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   text-align: center;
   color: var(--text-extra);
   text-decoration: none;
@@ -2467,7 +2467,7 @@ body {
   padding-left: 16px;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: var(--text-extra);
   background: var(--white);
   border: 1px solid var(--text-inner-form);
