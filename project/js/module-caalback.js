@@ -1,8 +1,13 @@
-document.querySelector('.contacts__button').onclick = function () {
-  document.querySelector('.module-caalback').classList.add('module-caalback--show');
+let contactsButton = document.querySelector('.contacts__button')
+let moduleCaalback = document.querySelector('.module-caalback')
+
+let closeModuleCaalback = document.querySelector('.module-caalback')
+
+contactsButton.onclick = function () {
+  moduleCaalback.classList.add('module-caalback--show');
 }
 
-document.querySelector('.module-caalback__close-button').onclick = function () {
-  document.querySelector('.module-caalback').classList.remove('module-caalback--show');
+closeModuleCaalback.onclick = function () {
+  moduleCaalback.classList.remove('module-caalback--show');
 }
 
