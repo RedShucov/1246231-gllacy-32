@@ -962,6 +962,7 @@ body {
 .slider__pagination-buttom {
   width: 12px;
   height: 12px;
+  padding: 0;
   background-color: var(--background-standard-opacity-3);
   border: none;
   border-radius: 50%;
@@ -1008,6 +1009,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  min-height: 268px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1111,7 +1113,7 @@ body {
 }
 
 .card-ice-cream__title {
-  margin-top: 15px;
+  margin-top: 12px;
   margin-bottom: 9px;
   font-size: 20px;
   line-height: 24px;
@@ -1193,6 +1195,9 @@ body {
 }
 
 .about-us {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 480px;
   padding: 24px;
   background-image: url(../img/img-decor/background/background-waffle@mini.jpg);
   border-radius: 16px;
