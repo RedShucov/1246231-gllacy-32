@@ -333,9 +333,10 @@ body {
   position: absolute;
   top: 8px;
   left: 16px;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .user-navigation__link--log-in::before {
@@ -343,6 +344,7 @@ body {
 }
 
 .user-navigation__link--cart::before {
+  left: 14px;
   background-image: url(../img/img-decor/interactive/cart.svg);
 }
 
@@ -1277,7 +1279,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   max-width: 570px;
-  min-height: 220px;
+  min-height: 216px;
   padding-top: 32px;
   padding-right: 235px;
   padding-bottom: 32px;
@@ -1505,12 +1507,13 @@ body {
 .delivery__form-label-info {
   position: absolute;
   display: inline-block;
-  width: 16px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
   margin-left: 4px;
   background-image: url(../img/img-decor/interactive/info.svg);
   background-repeat: no-repeat;
   background-position-y: 1px;
+  background-size: contain;
   cursor: help;
 }
 
@@ -1558,7 +1561,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-family: "Inter", "Arial", sans-serif;
-  background-color: var(--standard-white);
+  background-color: var(--white);
   border: 1px solid var(--text-inner-form);
   border-radius: 4px;
 }
@@ -2337,6 +2340,7 @@ body {
 }
 
 .additional-information__link {
+  max-width: 200px;
   color: var(--text-extra);
   text-decoration: none;
 }
@@ -2368,7 +2372,19 @@ body {
 }
 
 .developed__link {
+  position: relative;
   color: var(--text-extra);
+  text-decoration: none;
+}
+
+.developed__link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 99%;
+  height: 1px;
+  background-color: var(--text-extra);
 }
 
 .visually-hidden {
