@@ -4,7 +4,7 @@
   --background-extra: #ff7799;
   --background-pink: #ff4a78;
   --background-slide-item: #ffcbd8;
-  --background-standard-opacity: #fcfcfc66;
+  --background-standard-opacity: rgba(252, 252, 252, 0.4);
   --background-standard-opacity-3: rgba(252, 252, 252, 0.3);
   --background-standard-opacity-5: rgba(252, 252, 252, 0.5);
   --black-standard-opacity-3: rgba(86, 92, 102, 0.3);
