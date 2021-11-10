@@ -2492,6 +2492,7 @@ body {
 .module-caalback__input--textarea {
   width: 442px;
   height: 149px;
+  padding-top: 11px;
   resize: none;
 }
 
@@ -2523,8 +2524,10 @@ body {
 
 .module-caalback__close-button {
   position: absolute;
-  top: 37px;
-  right: 37px;
+  top: 29px;
+  right: 27px;
+  width: 30px;
+  height: 30px;
   padding-top: 0;
   padding-right: 0;
   padding-bottom: 0;
