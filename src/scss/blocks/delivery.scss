@@ -87,13 +87,14 @@
   position: absolute;
 
   display: inline-block;
-  width: 16px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
   margin-left: 4px;
 
   background-image: url(../img/img-decor/interactive/info.svg);
   background-repeat: no-repeat;
   background-position-y: 1px;
+  background-size: contain;
   cursor: help;
 }
 
@@ -146,7 +147,7 @@
   line-height: 20px;
   font-family: "Inter", "Arial", sans-serif;
 
-  background-color: var(--standard-white);
+  background-color: var(--white);
   border: 1px solid var(--text-inner-form);
   border-radius: 4px;
 }
