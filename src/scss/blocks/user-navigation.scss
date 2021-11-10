@@ -64,6 +64,9 @@
   outline: none;
 }
 
+.main-navigation__link--selected-page:active {
+  color: var(--text-extra);
+}
 .user-navigation__link--search {
   display: block;
   width: 32px;
