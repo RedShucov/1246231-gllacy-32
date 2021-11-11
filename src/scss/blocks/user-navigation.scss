@@ -1,6 +1,7 @@
 .user-navigation {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   max-width: 462px;
 
   font-size: 14px;
@@ -29,7 +30,6 @@
 }
 
 .user-navigation__phone-number {
-  align-self: center;
   margin-bottom: 3px;
 
   font-weight: 700;

@@ -1,10 +1,10 @@
 .popover-cart {
   position: absolute;
-  top: 53px;
+  top: calc(100% + 8px);
   right: 0;
   z-index: 1;
-  display: none;
 
+  display: none;
   box-sizing: border-box;
   width: 441px;
   padding: 49px;
