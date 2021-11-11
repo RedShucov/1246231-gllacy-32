@@ -22,10 +22,10 @@
   --grey-opacity-3: rgba(185, 185, 185, 0.3);
   --module-mask: rgba(45, 52, 64, 0.5);
   --very-dark-gray: #242424;
-  --very-dark-gray-opacity-2: rgba(36,36,36,0.24);
-  --background-about-us: #ECDEC2;
-  --background-delivery: #F2F2F1;
-  --background-contacts: #E9D6D7;
+  --very-dark-gray-opacity-2: rgba(36, 36, 36, 0.24);
+  --background-about-us: #ecdec2;
+  --background-delivery: #f2f2f1;
+  --background-contacts: #e9d6d7;
 }
 
 @font-face {
@@ -64,11 +64,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100%;
-}
-
-body {
   width: 1170px;
+  min-height: 100%;
   margin: 0 auto;
   font-weight: 400;
   font-size: 16px;
